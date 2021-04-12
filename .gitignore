@@ -1,0 +1,26 @@
+.gitattributes
+eula.txt
+.fabric
+.mixin.out
+logs
+fabric-server-launcher.properties
+config
+advcancements
+datapacks
+entities
+playerdata
+poi
+region
+scripts
+stats
+level.dat
+level.dat_old
+session.lock
+Fabric 1.17/data
+Fabric 1.17/DIM1
+Fabric 1.17/DIM-1
+banned-ips.json
+banned-players.json
+ops.json
+usercache.json
+whitelist.json
