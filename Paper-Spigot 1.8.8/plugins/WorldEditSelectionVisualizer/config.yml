@@ -1,0 +1,81 @@
+# WorldEditSelectionVisualizer configuration
+
+# When enabled, if a new update is available it will display a message in the console on start
+check-updates: true
+
+# You can edit the plugin messages here
+messages:
+  no-permissions: "&cYou don't have the permission to use this command"
+  config-reloaded: "&aThe config was reloaded"
+  selection-too-large: "&6The visualizer only works with selections up to a size of %blocks% blocks"
+  visualizer-enabled: "&6Your visualizer has been &eenabled."
+  visualizer-disabled: "&6Your visualizer has been &cdisabled."
+  visualizer-clipboard-enabled: "&6Your clipboard visualizer has been &eenabled&6."
+  visualizer-clipboard-disabled: "&6Your clipboard visualizer has been &cdisabled&6."
+
+# When enable, if a player disable the selection visualization and leave the server, when he will
+# come back, the selection visualization will be still disable until he activate it again with /wesv toggle
+save-toggle: true
+
+# Delay in ticks when the WorldEdit selection and clipboard are updated
+# This do not affect particles spawning and players performances
+# The server impact is medium
+selection-update-interval: 20
+
+# When enabled, the particles are display only when holding the WorldEdit selection wand item (by default a wooden axe)
+# You can change the WorldEdit wand item in the WorldEdit configuration
+need-we-wand: false
+
+# When enabled, top and bottom particles will be displayed
+cuboid-top-bottom: true
+
+# Settings for visualization
+# 'selection': The WorldEdit current selection
+# 'clipboard': The WorldEdit clipboard (when you use //copy or //schem load )
+# 'primary': The primary selection points (the region borders)
+# 'secondary': The secondary selection points
+#   'fade-delay': The number of seconds before the particles disappears. You can set it to 0 to remove the fade delay
+#   'max-selection-size' : The maximum size of a selection to be display. A big value (> 1000000) can cause important lags
+#   'points-distance': The distance between each particles. The higher this number is, less particles will be spawn
+#   'lines-gap' (secondary selection only): The distance between each particles lines on cuboid and polygon. The higher this number is, less particles will be spawn. Set it to 0 to remove cuboid lines
+#   'update-interval': The delay in ticks between particles spawn. This impact the players performances
+#   'view-distance':  The maximum distance in which players can see the particles. On 1.7.10 the particle distance is limited to 16 (Minecraft limitation)
+#   'particles': The particles type and data. The data can be a color for redstone like in the form 'r,g,b' or a Material for block crack/item crack
+#     The particle types are available on https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+visualization:
+  selection:
+    fade-delay: 0
+    max-selection-size: 50000
+    primary:
+      points-distance: 0.5
+      update-interval: 10
+      view-distance: 64
+      particles:
+        type: "FLAME"
+        data: ""
+    secondary:
+      points-distance: 1.0
+      lines-gap: 2.0
+      update-interval: 20
+      view-distance: 64
+      particles:
+        type: "REDSTONE"
+        data: "RED"
+  clipboard:
+    fade-delay: 0
+    max-selection-size: 50000
+    primary:
+      points-distance: 1.0
+      update-interval: 10
+      view-distance: 64
+      particles:
+        type: "FLAME"
+        data: ""
+    secondary:
+      points-distance: 2.0
+      lines-gap: 2.0
+      update-interval: 20
+      view-distance: 64
+      particles:
+        type: "REDSTONE"
+        data: "BLUE"

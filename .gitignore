@@ -24,3 +24,15 @@ banned-players.json
 ops.json
 usercache.json
 whitelist.json
+.console_history
+cache
+world_nether
+world_the_end
+Paper-Spigot 1.8.8/world
+Paper-Spigot 1.16.5/world
+commands.yml
+hlep.yml
+permissions.yml
+wepif.yml
+version_history.json
+usercache.json
