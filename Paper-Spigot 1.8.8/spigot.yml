@@ -25,7 +25,7 @@ settings:
   int-cache-limit: 1024
   timeout-time: 60
   restart-on-crash: true
-  restart-script: ./start.bat
+  restart-script: start.bat
   netty-threads: 4
   sample-count: 12
   bungeecord: false

@@ -11,7 +11,7 @@
 check_updates: true
 cloud_enabled: true
 cloud_sorting: "name"
-cloud_allow_unverified_expansions: false
+cloud_allow_unverified_expansions: true
 boolean:
   'true': 'yes'
   'false': 'no'
