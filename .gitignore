@@ -3,8 +3,6 @@ eula.txt
 .fabric
 .mixin.out
 logs
-fabric-server-launcher.properties
-config
 advcancements
 datapacks
 entities
@@ -16,9 +14,16 @@ stats
 level.dat
 level.dat_old
 session.lock
+.github
+
+# Fabric
+fabric-server-launcher.properties
+config
 Fabric 1.17/world/data
 Fabric 1.17/world/DIM1
 Fabric 1.17/world/DIM-1
+
+# Paper-Spigot
 banned-ips.json
 banned-players.json
 ops.json
@@ -28,7 +33,6 @@ whitelist.json
 cache
 world_nether
 world_the_end
-Paper-Spigot 1.8.8/world
 Paper-Spigot 1.16.5/world
 commands.yml
 help.yml
@@ -36,4 +40,37 @@ permissions.yml
 wepif.yml
 version_history.json
 usercache.json
-.github
+
+# Paper-Spigot 1.16.5
+Paper-Spigot 1.16.5/plugins/Essentials/userdata
+
+# Paper-Spigot 1.8.8
+Paper-Spigot 1.8.8/world
+Paper-Spigot 1.8.8/plugins/WorldMania/Languages
+Paper-Spigot 1.8.8/plugins/WorldMania/settings.json
+Paper-Spigot 1.8.8/plugins/WorldMania/worlds.json
+Paper-Spigot 1.8.8/plugins/Essentials/userdata
+Paper-Spigot 1.8.8/plugins/ConsoleSpamFix/config.yml
+
+# Plugins
+bStats
+FastAsyncWorldEdit
+LuckPerms
+MyCommand
+PluginManager
+PluginMetrics
+ProtocolLib
+Updater
+WorldEdit
+WorldGuard
+ViaVersion
+alerts.yml
+voice.yml
+warps
+custom_items.yml
+items.csv
+kits.yml
+tpr.yml
+upgrades-done.yml
+worth.yml
+Vault
