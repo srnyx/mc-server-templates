@@ -43,6 +43,16 @@ usercache.json
 
 # Paper-Spigot 1.16.5
 Paper-Spigot 1.16.5/plugins/Essentials/userdata
+Paper-Spigot 1.16.5/plugins/Essentials/items.json
+Paper-Spigot 1.16.5/plugins/Multiverse-Core/scripts
+Paper-Spigot 1.16.5/plugins/Multiverse-Core/worlds.yml
+Multiverse-Inventories
+VillagerOptimiser
+LimitPillagers
+FarmControl
+FastAsyncWorldEdit
+EntityTrackerFixer
+CoreProtect
 
 # Paper-Spigot 1.8.8
 Paper-Spigot 1.8.8/world
@@ -50,20 +60,20 @@ Paper-Spigot 1.8.8/plugins/WorldMania/Languages
 Paper-Spigot 1.8.8/plugins/WorldMania/settings.json
 Paper-Spigot 1.8.8/plugins/WorldMania/worlds.json
 Paper-Spigot 1.8.8/plugins/Essentials/userdata
+Paper-Spigot 1.8.8/plugins/Essentials/items.json
 Paper-Spigot 1.8.8/plugins/ConsoleSpamFix/config.yml
+WorldEdit
+ViaVersion
 
 # Plugins
 bStats
-FastAsyncWorldEdit
 LuckPerms
 MyCommand
 PluginManager
 PluginMetrics
 ProtocolLib
 Updater
-WorldEdit
 WorldGuard
-ViaVersion
 alerts.yml
 voice.yml
 warps
