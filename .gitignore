@@ -40,10 +40,10 @@ commands.yml
 help.yml
 permissions.yml
 wepif.yml
-version_history.json
 usercache.json
 
 # Paper-Spigot 1.16.5
+version_history.json
 Paper-Spigot 1.16.5/plugins/Essentials/userdata
 Paper-Spigot 1.16.5/plugins/Essentials/items.json
 Paper-Spigot 1.16.5/plugins/Multiverse-Core/scripts
