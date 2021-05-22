@@ -24,7 +24,7 @@ selection-update-interval: 20
 
 # When enabled, the particles are display only when holding the WorldEdit selection wand item (by default a wooden axe)
 # You can change the WorldEdit wand item in the WorldEdit configuration
-need-we-wand: false
+need-we-wand: true
 
 # When enabled, top and bottom particles will be displayed
 cuboid-top-bottom: true
