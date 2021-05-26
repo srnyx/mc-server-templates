@@ -58,6 +58,9 @@ settings:
     enabled: false
     online-mode: false
     secret: ''
+  console:
+    enable-brigadier-highlighting: true
+    enable-brigadier-completions: true
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -79,6 +82,7 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    map-item-frame-cursor-limit: 128
     only-players-collide: false
     allow-vehicle-collisions: true
     nether-ceiling-void-damage-height: 0
