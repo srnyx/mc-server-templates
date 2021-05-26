@@ -20,6 +20,8 @@ Messages-To-Hide-Filter:
 - 'Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!'
 - 'does not specify an api-version.'
 - 'We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.'
+- 'Nashorn engine is planned to be removed from a future JDK release'
+- 'Tried to access a block entity before it was created. BlockPosition{x='
 
 
 #Chat messages with color and format codes support.
