@@ -1,0 +1,11 @@
+# The configuration file for Shut Up Console
+
+[shutupconsole]
+# If a log message has one of these phrases, it will be filtered out from logging
+phrases = [
+"Ambiguity between arguments [",
+"does not respect SemVer - comparison support is limited."
+ ]
+
+# If a log message matches one of these regex patterns, it will be filtered out from logging
+regex = []
