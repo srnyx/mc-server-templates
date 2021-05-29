@@ -18,12 +18,32 @@ session.lock
 LICENSE
 README.md
 
+
 # Fabric
 fabric-server-launcher.properties
-config
+
+# Fabric 1.17
 Fabric 1.17/world/data
 Fabric 1.17/world/DIM1
 Fabric 1.17/world/DIM-1
+Fabric 1.17/config
+
+# Fabric 1.16.5
+Fabric 1.16.5/gunpowder.db
+Fabric 1.16.5/not-enough-crashes
+Fabric 1.16.5/config/fdlink
+Fabric 1.16.5/config/chat_plus.json
+Fabric 1.16.5/config/gunpowder.yaml
+Fabric 1.16.5/config/jline4mcdsrv.toml
+Fabric 1.16.5/config/lithium.properties
+Fabric 1.16.5/config/notenoughcrashes.json
+Fabric 1.16.5/config/overworldtwo.json
+Fabric 1.16.5/config/randompatches.toml
+Fabric 1.16.5/config/smoothboot.json
+Fabric 1.16.5/world/data
+Fabric 1.16.5/world/DIM1
+Fabric 1.16.5/world/DIM-1
+
 
 # Paper-Spigot
 banned-ips.json
@@ -35,7 +55,6 @@ whitelist.json
 cache
 world_nether
 world_the_end
-Paper-Spigot 1.16.5/world
 commands.yml
 help.yml
 permissions.yml
@@ -43,18 +62,17 @@ wepif.yml
 usercache.json
 
 # Paper-Spigot 1.16.5
-version_history.json
+Paper-Spigot 1.16.5/version_history.json
 Paper-Spigot 1.16.5/plugins/Essentials/userdata
 Paper-Spigot 1.16.5/plugins/Essentials/items.json
 Paper-Spigot 1.16.5/plugins/Multiverse-Core/scripts
 Paper-Spigot 1.16.5/plugins/Multiverse-Core/worlds.yml
-Multiverse-Inventories
-VillagerOptimiser
-LimitPillagers
-FarmControl
-FastAsyncWorldEdit
-EntityTrackerFixer
-CoreProtect
+Paper-Spigot 1.16.5/plugins/Multiverse-Inventories
+Paper-Spigot 1.16.5/plugins/VillagerOptimiser
+Paper-Spigot 1.16.5/plugins/LimitPillagers
+Paper-Spigot 1.16.5/plugins/FarmControl
+Paper-Spigot 1.16.5/plugins/EntityTrackerFixer
+Paper-Spigot 1.16.5/plugins/CoreProtect
 Paper-Spigot 1.16.5/plugins/VanillaTweaks/config.yml
 Paper-Spigot 1.16.5/plugins/VanillaTweaks/lang.yml
 Paper-Spigot 1.16.5/plugins/VanillaTweaks/confetticreepers
@@ -68,6 +86,7 @@ Paper-Spigot 1.16.5/plugins/VanillaTweaks/villagerdeathmessages
 Paper-Spigot 1.16.5/plugins/VanillaTweaks/wanderingtrades
 Paper-Spigot 1.16.5/plugins/VanillaTweaks/wrench
 Paper-Spigot 1.16.5/plugins/VanillaTweaks/durabilityping
+Paper-Spigot 1.16.5/world
 
 # Paper-Spigot 1.8.8
 Paper-Spigot 1.8.8/world
@@ -76,8 +95,8 @@ Paper-Spigot 1.8.8/plugins/WorldMania/settings.json
 Paper-Spigot 1.8.8/plugins/WorldMania/worlds.json
 Paper-Spigot 1.8.8/plugins/Essentials/userdata
 Paper-Spigot 1.8.8/plugins/Essentials/items.json
-WorldEdit
-ViaVersion
+Paper-Spigot 1.8.8/plugins/WorldEdit
+Paper-Spigot 1.8.8/plugins/ViaVersion
 
 # Plugins
 bStats
@@ -98,3 +117,4 @@ tpr.yml
 upgrades-done.yml
 worth.yml
 Vault
+FastAsyncWorldEdit
