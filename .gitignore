@@ -21,12 +21,13 @@ README.md
 
 # Fabric
 fabric-server-launcher.properties
+.fabric-installer
 
 # Fabric 1.17
-Fabric 1.17/world/data
-Fabric 1.17/world/DIM1
-Fabric 1.17/world/DIM-1
-Fabric 1.17/config
+Fabric 1.17.1/world/data
+Fabric 1.17.1/world/DIM1
+Fabric 1.17.1/world/DIM-1
+Fabric 1.17.1/config
 
 # Fabric 1.16.5
 Fabric 1.16.5/gunpowder.db
@@ -61,42 +62,42 @@ permissions.yml
 wepif.yml
 usercache.json
 
-# Paper-Spigot 1.16.5
-Paper-Spigot 1.16.5/version_history.json
-Paper-Spigot 1.16.5/plugins/Essentials/userdata
-Paper-Spigot 1.16.5/plugins/Essentials/items.json
-Paper-Spigot 1.16.5/plugins/Multiverse-Core/scripts
-Paper-Spigot 1.16.5/plugins/Multiverse-Core/worlds.yml
-Paper-Spigot 1.16.5/plugins/Multiverse-Inventories
-Paper-Spigot 1.16.5/plugins/VillagerOptimiser
-Paper-Spigot 1.16.5/plugins/LimitPillagers
-Paper-Spigot 1.16.5/plugins/FarmControl
-Paper-Spigot 1.16.5/plugins/EntityTrackerFixer
-Paper-Spigot 1.16.5/plugins/CoreProtect
-Paper-Spigot 1.16.5/plugins/VanillaTweaks/config.yml
-Paper-Spigot 1.16.5/plugins/VanillaTweaks/lang.yml
-Paper-Spigot 1.16.5/plugins/VanillaTweaks/confetticreepers
-Paper-Spigot 1.16.5/plugins/VanillaTweaks/coordinateshud
-Paper-Spigot 1.16.5/plugins/VanillaTweaks/multiplayersleep
-Paper-Spigot 1.16.5/plugins/VanillaTweaks/netherportalcoords
-Paper-Spigot 1.16.5/plugins/VanillaTweaks/pillagertools
-Paper-Spigot 1.16.5/plugins/VanillaTweaks/playergraves
-Paper-Spigot 1.16.5/plugins/VanillaTweaks/sethome
-Paper-Spigot 1.16.5/plugins/VanillaTweaks/villagerdeathmessages
-Paper-Spigot 1.16.5/plugins/VanillaTweaks/wanderingtrades
-Paper-Spigot 1.16.5/plugins/VanillaTweaks/wrench
-Paper-Spigot 1.16.5/plugins/VanillaTweaks/durabilityping
-Paper-Spigot 1.16.5/world
+# Purpur 1.16.5
+Purpur 1.16.5/version_history.json
+Purpur 1.16.5/plugins/Essentials/userdata
+Purpur 1.16.5/plugins/Essentials/items.json
+Purpur 1.16.5/plugins/Multiverse-Core/scripts
+Purpur 1.16.5/plugins/Multiverse-Core/worlds.yml
+Purpur 1.16.5/plugins/Multiverse-Inventories
+Purpur 1.16.5/plugins/VillagerOptimiser
+Purpur 1.16.5/plugins/LimitPillagers
+Purpur 1.16.5/plugins/FarmControl
+Purpur 1.16.5/plugins/EntityTrackerFixer
+Purpur 1.16.5/plugins/CoreProtect
+Purpur 1.16.5/plugins/VanillaTweaks/config.yml
+Purpur 1.16.5/plugins/VanillaTweaks/lang.yml
+Purpur 1.16.5/plugins/VanillaTweaks/confetticreepers
+Purpur 1.16.5/plugins/VanillaTweaks/coordinateshud
+Purpur 1.16.5/plugins/VanillaTweaks/multiplayersleep
+Purpur 1.16.5/plugins/VanillaTweaks/netherportalcoords
+Purpur 1.16.5/plugins/VanillaTweaks/pillagertools
+Purpur 1.16.5/plugins/VanillaTweaks/playergraves
+Purpur 1.16.5/plugins/VanillaTweaks/sethome
+Purpur 1.16.5/plugins/VanillaTweaks/villagerdeathmessages
+Purpur 1.16.5/plugins/VanillaTweaks/wanderingtrades
+Purpur 1.16.5/plugins/VanillaTweaks/wrench
+Purpur 1.16.5/plugins/VanillaTweaks/durabilityping
+Purpur 1.16.5/world
 
 # Paper-Spigot 1.8.8
-Paper-Spigot 1.8.8/world
-Paper-Spigot 1.8.8/plugins/WorldMania/Languages
-Paper-Spigot 1.8.8/plugins/WorldMania/settings.json
-Paper-Spigot 1.8.8/plugins/WorldMania/worlds.json
-Paper-Spigot 1.8.8/plugins/Essentials/userdata
-Paper-Spigot 1.8.8/plugins/Essentials/items.json
-Paper-Spigot 1.8.8/plugins/WorldEdit
-Paper-Spigot 1.8.8/plugins/ViaVersion
+Paper 1.8.8/world
+Paper 1.8.8/plugins/WorldMania/Languages
+Paper 1.8.8/plugins/WorldMania/settings.json
+Paper 1.8.8/plugins/WorldMania/worlds.json
+Paper 1.8.8/plugins/Essentials/userdata
+Paper 1.8.8/plugins/Essentials/items.json
+Paper 1.8.8/plugins/WorldEdit
+Paper 1.8.8/plugins/ViaVersion
 
 # Plugins
 bStats
