@@ -73,6 +73,7 @@ permissions.yml
 wepif.yml
 usercache.json
 version_history.json
+tuinity.yml
 
 # Paper/Purpur PLUGINS
 bStats
@@ -86,6 +87,12 @@ WorldGuard
 Vault
 FastAsyncWorldEdit
 InventoryRollbackPlus
+CoreProtect
+VillagerOptimiser
+Multiverse-Inventories
+LimitPillagers
+EntityTrackerFixer
+TAB-Additions
 
 
 # Paper 1.8.8
@@ -115,10 +122,6 @@ Paper 1.8.8/plugins/DiscordSRV/voice.yml
 Paper 1.8.8/plugins/DiscordSRV/alerts.yml
 
 
-# Purpur
-tuinity.yml
-
-
 # Purpur 1.16.5
 Purpur 1.16.5/world
 
@@ -136,18 +139,6 @@ Purpur 1.16.5/plugins/Essentials/worth.yml
 # Multiverse-Core
 Purpur 1.16.5/plugins/Multiverse-Core/scripts
 Purpur 1.16.5/plugins/Multiverse-Core/worlds.yml
-# Multiverse-Inventories
-Purpur 1.16.5/plugins/Multiverse-Inventories
-# VillagerOptimiser
-Purpur 1.16.5/plugins/VillagerOptimiser
-# LimitPillagers
-Purpur 1.16.5/plugins/LimitPillagers
-# FarmControl
-Purpur 1.16.5/plugins/FarmControl
-# EntityTrackerFixer
-Purpur 1.16.5/plugins/EntityTrackerFixer
-# CoreProtect
-Purpur 1.16.5/plugins/CoreProtect
 # VanillaTweaks
 Purpur 1.16.5/plugins/VanillaTweaks/config.yml
 Purpur 1.16.5/plugins/VanillaTweaks/lang.yml
@@ -167,18 +158,45 @@ Purpur 1.16.5/plugins/DiscordSRV/voice.yml
 Purpur 1.16.5/plugins/DiscordSRV/alerts.yml
 # Scoreboard-revision
 Purpur 1.16.5/plugins/Scoreboard-revision/language.yml
-# TAB-Additions
-Purpur 1.16.5/plugins/TAB-Additions/actionbars.yml
-Purpur 1.16.5/plugins/TAB-Additions/chat.yml
-Purpur 1.16.5/plugins/TAB-Additions/config.yml
-Purpur 1.16.5/plugins/TAB-Additions/skins.yml
-Purpur 1.16.5/plugins/TAB-Additions/titles.yml
 # TAB
 Purpur 1.16.5/plugins/TAB/bossbar.yml
 Purpur 1.16.5/plugins/TAB/translation.yml
+# FarmControl
+Purpur 1.16.5/plugins/FarmControl
 
 
 # Purpur 1.17.1
 Purpur 1.17.1/world
 
 # Purpur 1.17.1 PLUGINS
+# DiscordSRV
+Purpur 1.17.1/plugins/DiscordSRV/voice.yml
+Purpur 1.17.1/plugins/DiscordSRV/alerts.yml
+# Essentials
+Purpur 1.17.1/plugins/Essentials/userdata
+Purpur 1.17.1/plugins/Essentials/items.json
+Purpur 1.17.1/plugins/Essentials/warps
+Purpur 1.17.1/plugins/Essentials/custom_items.yml
+Purpur 1.17.1/plugins/Essentials/items.csv
+Purpur 1.17.1/plugins/Essentials/kits.yml
+Purpur 1.17.1/plugins/Essentials/tpr.yml
+Purpur 1.17.1/plugins/Essentials/upgrades-done.yml
+Purpur 1.17.1/plugins/Essentials/worth.yml
+# FarmControl
+Purpur 1.17.1/plugins/FarmControl/profiles.yml
+# VanillaTweaks
+Purpur 1.17.1/plugins/VanillaTweaks/config.yml
+Purpur 1.17.1/plugins/VanillaTweaks/lang.yml
+Purpur 1.17.1/plugins/VanillaTweaks/confetticreepers
+Purpur 1.17.1/plugins/VanillaTweaks/coordinateshud
+Purpur 1.17.1/plugins/VanillaTweaks/multiplayersleep
+Purpur 1.17.1/plugins/VanillaTweaks/netherportalcoords
+Purpur 1.17.1/plugins/VanillaTweaks/pillagertools
+Purpur 1.17.1/plugins/VanillaTweaks/playergraves
+Purpur 1.17.1/plugins/VanillaTweaks/sethome
+Purpur 1.17.1/plugins/VanillaTweaks/villagerdeathmessages
+Purpur 1.17.1/plugins/VanillaTweaks/wanderingtrades
+Purpur 1.17.1/plugins/VanillaTweaks/wrench
+Purpur 1.17.1/plugins/VanillaTweaks/durabilityping
+# Multiverse-Core
+Purpur 1.17.1/plugins/Multiverse-Core/worlds.yml
