@@ -17,21 +17,34 @@ session.lock
 .github
 LICENSE
 README.md
+*.old
+
 
 
 # Fabric
 fabric-server-launcher.properties
 .fabric-installer
 
-# Fabric 1.17
+
+# Fabric 1.17.1
 Fabric 1.17.1/world/data
 Fabric 1.17.1/world/DIM1
 Fabric 1.17.1/world/DIM-1
+Fabric 1.17.1/crash-reports
+Fabric 1.17.1/gunpowder.db
+
+# Fabric 1.17.1 CONFIGS
 Fabric 1.17.1/config
+
 
 # Fabric 1.16.5
 Fabric 1.16.5/gunpowder.db
 Fabric 1.16.5/not-enough-crashes
+Fabric 1.16.5/world/data
+Fabric 1.16.5/world/DIM1
+Fabric 1.16.5/world/DIM-1
+
+# Fabric 1.16.5 CONFIGS
 Fabric 1.16.5/config/fdlink
 Fabric 1.16.5/config/chat_plus.json
 Fabric 1.16.5/config/gunpowder.yaml
@@ -41,12 +54,10 @@ Fabric 1.16.5/config/notenoughcrashes.json
 Fabric 1.16.5/config/overworldtwo.json
 Fabric 1.16.5/config/randompatches.toml
 Fabric 1.16.5/config/smoothboot.json
-Fabric 1.16.5/world/data
-Fabric 1.16.5/world/DIM1
-Fabric 1.16.5/world/DIM-1
+Fabric 1.16.5/config/ferritecore.mixin.properties
 
 
-# Paper-Spigot
+# Paper/Purpur
 banned-ips.json
 banned-players.json
 ops.json
@@ -61,19 +72,83 @@ help.yml
 permissions.yml
 wepif.yml
 usercache.json
+version_history.json
+
+# Paper/Purpur PLUGINS
+bStats
+LuckPerms
+MyCommand
+PluginManager
+PluginMetrics
+ProtocolLib
+Updater
+WorldGuard
+Vault
+FastAsyncWorldEdit
+InventoryRollbackPlus
+
+
+# Paper 1.8.8
+Paper 1.8.8/world
+
+# Paper 1.8.8 PLUGINS
+# WorldMania
+Paper 1.8.8/plugins/WorldMania/Languages
+Paper 1.8.8/plugins/WorldMania/settings.json
+Paper 1.8.8/plugins/WorldMania/worlds.json
+# Essentials
+Paper 1.8.8/plugins/Essentials/userdata
+Paper 1.8.8/plugins/Essentials/items.json
+Paper 1.8.8/plugins/Essentials/warps
+Paper 1.8.8/plugins/Essentials/custom_items.yml
+Paper 1.8.8/plugins/Essentials/items.csv
+Paper 1.8.8/plugins/Essentials/kits.yml
+Paper 1.8.8/plugins/Essentials/tpr.yml
+Paper 1.8.8/plugins/Essentials/upgrades-done.yml
+Paper 1.8.8/plugins/Essentials/worth.yml
+# WorldEdit
+Paper 1.8.8/plugins/WorldEdit
+# ViaVersion
+Paper 1.8.8/plugins/ViaVersion
+# DiscordSRV
+Paper 1.8.8/plugins/DiscordSRV/voice.yml
+Paper 1.8.8/plugins/DiscordSRV/alerts.yml
+
+
+# Purpur
+tuinity.yml
+
 
 # Purpur 1.16.5
-Purpur 1.16.5/version_history.json
+Purpur 1.16.5/world
+
+# Purpur 1.16.5 PLUGINS
+# Essentials
 Purpur 1.16.5/plugins/Essentials/userdata
 Purpur 1.16.5/plugins/Essentials/items.json
+Purpur 1.16.5/plugins/Essentials/warps
+Purpur 1.16.5/plugins/Essentials/custom_items.yml
+Purpur 1.16.5/plugins/Essentials/items.csv
+Purpur 1.16.5/plugins/Essentials/kits.yml
+Purpur 1.16.5/plugins/Essentials/tpr.yml
+Purpur 1.16.5/plugins/Essentials/upgrades-done.yml
+Purpur 1.16.5/plugins/Essentials/worth.yml
+# Multiverse-Core
 Purpur 1.16.5/plugins/Multiverse-Core/scripts
 Purpur 1.16.5/plugins/Multiverse-Core/worlds.yml
+# Multiverse-Inventories
 Purpur 1.16.5/plugins/Multiverse-Inventories
+# VillagerOptimiser
 Purpur 1.16.5/plugins/VillagerOptimiser
+# LimitPillagers
 Purpur 1.16.5/plugins/LimitPillagers
+# FarmControl
 Purpur 1.16.5/plugins/FarmControl
+# EntityTrackerFixer
 Purpur 1.16.5/plugins/EntityTrackerFixer
+# CoreProtect
 Purpur 1.16.5/plugins/CoreProtect
+# VanillaTweaks
 Purpur 1.16.5/plugins/VanillaTweaks/config.yml
 Purpur 1.16.5/plugins/VanillaTweaks/lang.yml
 Purpur 1.16.5/plugins/VanillaTweaks/confetticreepers
@@ -87,35 +162,23 @@ Purpur 1.16.5/plugins/VanillaTweaks/villagerdeathmessages
 Purpur 1.16.5/plugins/VanillaTweaks/wanderingtrades
 Purpur 1.16.5/plugins/VanillaTweaks/wrench
 Purpur 1.16.5/plugins/VanillaTweaks/durabilityping
-Purpur 1.16.5/world
+# DiscordSRV
+Purpur 1.16.5/plugins/DiscordSRV/voice.yml
+Purpur 1.16.5/plugins/DiscordSRV/alerts.yml
+# Scoreboard-revision
+Purpur 1.16.5/plugins/Scoreboard-revision/language.yml
+# TAB-Additions
+Purpur 1.16.5/plugins/TAB-Additions/actionbars.yml
+Purpur 1.16.5/plugins/TAB-Additions/chat.yml
+Purpur 1.16.5/plugins/TAB-Additions/config.yml
+Purpur 1.16.5/plugins/TAB-Additions/skins.yml
+Purpur 1.16.5/plugins/TAB-Additions/titles.yml
+# TAB
+Purpur 1.16.5/plugins/TAB/bossbar.yml
+Purpur 1.16.5/plugins/TAB/translation.yml
 
-# Paper-Spigot 1.8.8
-Paper 1.8.8/world
-Paper 1.8.8/plugins/WorldMania/Languages
-Paper 1.8.8/plugins/WorldMania/settings.json
-Paper 1.8.8/plugins/WorldMania/worlds.json
-Paper 1.8.8/plugins/Essentials/userdata
-Paper 1.8.8/plugins/Essentials/items.json
-Paper 1.8.8/plugins/WorldEdit
-Paper 1.8.8/plugins/ViaVersion
 
-# Plugins
-bStats
-LuckPerms
-MyCommand
-PluginManager
-PluginMetrics
-ProtocolLib
-Updater
-WorldGuard
-alerts.yml
-voice.yml
-warps
-custom_items.yml
-items.csv
-kits.yml
-tpr.yml
-upgrades-done.yml
-worth.yml
-Vault
-FastAsyncWorldEdit
+# Purpur 1.17.1
+Purpur 1.17.1/world
+
+# Purpur 1.17.1 PLUGINS
