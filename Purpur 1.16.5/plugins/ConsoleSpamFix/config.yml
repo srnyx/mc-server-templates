@@ -22,6 +22,11 @@ Messages-To-Hide-Filter:
 - 'We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.'
 - 'Nashorn engine is planned to be removed from a future JDK release'
 - 'Tried to access a block entity before it was created. BlockPosition{x='
+- '- Enable the stopper to remove all future Pillager spawners (Last resort)'
+- 'Unable to find spawn biome'
+- 'Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.'
+- 'No TreeType mapping for TreeGenerator.TreeType.AZALEA'
+- 'hence the tree type AZALEA is not available.'
 
 
 #Chat messages with color and format codes support.

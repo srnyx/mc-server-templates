@@ -1,4 +1,4 @@
-Require linked account to play:
+Require linked account to play: 
   Enabled: false
 
   # If you don't know what these mean, don't touch them
@@ -55,3 +55,8 @@ Require linked account to play:
     Failed to find subscriber role: "&cFailed to find any subscriber role on Discord.\n\nContact your server admins about this issue."
     Failed for unknown reason: "&cAn error occurred while trying to verify your account.\n\nContact your server admin about this issue."
     Kicked for unlinking: "&cYou have been kicked from the server for unlinking your accounts.\n\nPlease rejoin the server to link your accounts again."
+
+
+
+
+

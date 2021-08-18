@@ -61,6 +61,14 @@ settings:
   console:
     enable-brigadier-highlighting: true
     enable-brigadier-completions: true
+  item-validation:
+    display-name: 8192
+    loc-name: 8192
+    lore-line: 8192
+    book:
+      title: 8192
+      author: 8192
+      page: 16384
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -77,11 +85,19 @@ timings:
   - database
   - settings.bungeecord-addresses
   - settings.velocity-support.secret
+  - server-ip
+  - settings.seed
+  - settings.seed.dungeon
+  - settings.seed.end-spike
+  - worldgen.seeds.populator
   history-interval: 300
   history-length: 3600
   server-name: Unknown Server
 world-settings:
   default:
+    fix-items-merging-through-walls: false
+    seed-based-feature-search-loads-chunks: true
+    piglins-guard-chests: true
     map-item-frame-cursor-limit: 128
     only-players-collide: false
     allow-vehicle-collisions: true
@@ -252,3 +268,11 @@ world-settings:
       snowball: -1
       ender_pearl: -1
       arrow: -1
+    unsupported-settings:
+      fix-invulnerable-end-crystal-exploit: true
+    spawn-limits:
+      monsters: -1
+      animals: -1
+      water-animals: -1
+      water-ambient: -1
+      ambient: -1
