@@ -5,7 +5,8 @@
 phrases = [
 "Ambiguity between arguments [",
 "does not respect SemVer - comparison support is limited.",
-"Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children"
+"Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children",
+"-fabric initialized"
  ]
 
 # If a log message matches one of these regex patterns, it will be filtered out from logging
