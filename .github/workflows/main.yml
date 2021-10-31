@@ -25,20 +25,20 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: fabric-1.16.5
-        path: Fabric 1.16.5/
+        path: Fabric 1.16.5
     - uses: actions/upload-artifact@v2
       with:
         name: fabric-1.17.1
-        path: Fabric 1.17.1/
+        path: Fabric 1.17.1
     - uses: actions/upload-artifact@v2
       with:
         name: paper-1.8.8
-        path: Paper 1.16.5/
+        path: Paper 1.16.5
     - uses: actions/upload-artifact@v2
       with:
         name: purpur-1.16.5
-        path: Purpur 1.16.5/
+        path: Purpur 1.16.5
     - uses: actions/upload-artifact@v2
       with:
         name: purpur-1.17.1
-        path: Purpur 1.17.1/
+        path: Purpur 1.17.1
