@@ -45,19 +45,19 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: paper-1.8.8
-        path: Paper 1.16.5
+        path: Paper 1.8.8
     # Purpur 1.16.5
     - uses: actions/checkout@v2
     - run: mkdir -p Purpur 1.16.5
-    - run: echo hello > Purpur 1.16.5
+#    - run: echo hello > Purpur 1.16.5
     - uses: actions/upload-artifact@v2
       with:
         name: purpur-1.16.5
         path: Purpur 1.16.5
     # Purpur 1.17.1
     - uses: actions/checkout@v2
-#    - run: mkdir -p Purpur 1.17.1
-    - run: echo hello > Purpur 1.17.1
+    - run: mkdir -p Purpur 1.17.1
+#    - run: echo hello > Purpur 1.17.1
     - uses: actions/upload-artifact@v2
       with:
         name: purpur-1.17.1
