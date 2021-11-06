@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'Fabric 1.17.1'
+      - 'Fabric 1.17.1/**'
 
 jobs:
   build:
