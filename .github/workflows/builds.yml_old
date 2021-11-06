@@ -1,0 +1,52 @@
+name: Builds
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+	
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    # Fabric 1.16.5
+    - uses: actions/checkout@v2
+    - run: mkdir -p Fabric 1.16.5
+#    - run: echo hello > Fabric 1.16.5
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Fabric 1.16.5
+        path: Fabric 1.16.5
+    # Fabric 1.17.1
+#    - uses: actions/checkout@v2
+    - run: mkdir -p Fabric 1.17.1
+#    - run: echo hello > Fabric 1.17.1
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Fabric 1.17.1
+        path: Fabric 1.17.1
+    # Paper 1.8.8
+#    - uses: actions/checkout@v2
+    - run: mkdir -p Paper 1.8.8
+#    - run: echo hello > Paper 1.8.8
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Paper 1.8.8
+        path: Paper 1.8.8
+    # Purpur 1.16.5
+#    - uses: actions/checkout@v2
+    - run: mkdir -p Purpur 1.16.5
+#    - run: echo hello > Purpur 1.16.5
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Purpur 1.16.5
+        path: Purpur 1.16.5
+    # Purpur 1.17.1
+#    - uses: actions/checkout@v2
+    - run: mkdir -p Purpur 1.17.1
+#    - run: echo hello > Purpur 1.17.1
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Purpur 1.17.1
+        path: Purpur 1.17.1
