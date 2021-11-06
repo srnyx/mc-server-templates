@@ -1,0 +1,18 @@
+name: Fabric 1.16.5 Builds
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'Fabric 1.16.5'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: mkdir -p Fabric 1.16.5
+    - uses: actions/upload-artifact@v2
+      with:
+        name: fabric-1.16.5
+        path: Fabric 1.16.5
