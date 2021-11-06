@@ -9,7 +9,8 @@ on:
     branches: [ main ]
     paths:
       - 'Fabric 1.16.5/**'
-
+  workflow_dispatch:
+  
 jobs:
   build:
     runs-on: ubuntu-latest

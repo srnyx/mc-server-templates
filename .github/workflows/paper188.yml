@@ -9,6 +9,7 @@ on:
     branches: [ main ]
     paths:
       - 'Paper 1.8.8/**'
+  workflow_dispatch:
 
 jobs:
   build:
