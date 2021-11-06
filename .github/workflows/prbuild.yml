@@ -28,7 +28,7 @@ jobs:
 #    - run: echo hello > Fabric 1.16.5
     - uses: actions/upload-artifact@v2
       with:
-        name: fabric-1.16.5
+        name: Fabric 1.16.5
         path: Fabric 1.16.5
     # Fabric 1.17.1
 #    - uses: actions/checkout@v2
@@ -36,7 +36,7 @@ jobs:
 #    - run: echo hello > Fabric 1.17.1
     - uses: actions/upload-artifact@v2
       with:
-        name: fabric-1.17.1
+        name: Fabric 1.17.1
         path: Fabric 1.17.1
     # Paper 1.8.8
 #    - uses: actions/checkout@v2
@@ -44,7 +44,7 @@ jobs:
 #    - run: echo hello > Paper 1.8.8
     - uses: actions/upload-artifact@v2
       with:
-        name: paper-1.8.8
+        name: Paper 1.8.8
         path: Paper 1.8.8
     # Purpur 1.16.5
 #    - uses: actions/checkout@v2
@@ -52,7 +52,7 @@ jobs:
 #    - run: echo hello > Purpur 1.16.5
     - uses: actions/upload-artifact@v2
       with:
-        name: purpur-1.16.5
+        name: Purpur 1.16.5
         path: Purpur 1.16.5
     # Purpur 1.17.1
 #    - uses: actions/checkout@v2
@@ -60,5 +60,5 @@ jobs:
 #    - run: echo hello > Purpur 1.17.1
     - uses: actions/upload-artifact@v2
       with:
-        name: purpur-1.17.1
+        name: Purpur 1.17.1
         path: Purpur 1.17.1

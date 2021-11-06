@@ -14,7 +14,7 @@ stats
 level.dat
 level.dat_old
 session.lock
-.github
+#.github
 LICENSE
 README.md
 *.old

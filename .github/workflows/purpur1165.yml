@@ -1,18 +1,18 @@
-name: Paper 1.8.8 Builds
+name: Purpur 1.16.5 Builds
 
 on:
   push:
     branches: [ main ]
     paths:
-      - 'Paper 1.8.8/**'
+      - 'Purpur 1.16.5/**'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - run: mkdir -p Paper 1.8.8
+    - run: mkdir -p Purpur 1.16.5
     - uses: actions/upload-artifact@v2
       with:
-        name: Paper 1.8.8
-        path: Paper 1.8.8
+        name: Purpur 1.16.5
+        path: Purpur 1.16.5
