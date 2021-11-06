@@ -5,6 +5,10 @@ on:
     branches: [ main ]
     paths:
       - 'Fabric 1.16.5/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'Fabric 1.16.5/**'
 
 jobs:
   build:

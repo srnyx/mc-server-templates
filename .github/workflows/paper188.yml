@@ -5,6 +5,10 @@ on:
     branches: [ main ]
     paths:
       - 'Paper 1.8.8/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'Paper 1.8.8/**'
 
 jobs:
   build:

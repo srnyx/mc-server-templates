@@ -5,6 +5,10 @@ on:
     branches: [ main ]
     paths:
       - 'Purpur 1.17.1/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'Purpur 1.17.1/**'
 
 jobs:
   build:
