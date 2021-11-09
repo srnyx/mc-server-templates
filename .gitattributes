@@ -1,0 +1,2 @@
+server-launch.jar filter=lfs diff=lfs merge=lfs -text
+server.jar filter=lfs diff=lfs merge=lfs -text
