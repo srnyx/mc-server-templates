@@ -11,7 +11,7 @@
 # Docs: https://paper.readthedocs.org/ 
 
 verbose: false
-config-version: 21
+config-version: 24
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -21,6 +21,9 @@ messages:
     flying-vehicle: Flying is not enabled on this server
     connection-throttle: Connection throttled! Please wait before reconnecting.
 settings:
+  send-full-pos-for-hard-colliding-entities: true
+  lag-compensate-block-breaking: true
+  log-player-ip-addresses: false
   chunk-tasks-per-tick: 1000
   bungee-online-mode: true
   player-auto-save-rate: -1
@@ -80,6 +83,26 @@ settings:
   watchdog:
     early-warning-every: 5000
     early-warning-delay: 10000
+  chunk-loading:
+    min-load-radius: 2
+    max-concurrent-sends: 2
+    autoconfig-send-distance: true
+    target-player-chunk-send-rate: 100.0
+    global-max-chunk-send-rate: -1.0
+    enable-frustum-priority: false
+    global-max-chunk-load-rate: -1.0
+    player-max-concurrent-loads: 4.0
+    global-max-concurrent-loads: 500.0
+  packet-limiter:
+    kick-message: '&cSent too many packets'
+    limits:
+      all:
+        interval: 7.0
+        max-packet-rate: 500.0
+      PacketPlayInAutoRecipe:
+        interval: 4.0
+        max-packet-rate: 5.0
+        action: DROP
 timings:
   enabled: true
   verbose: true
@@ -91,11 +114,14 @@ timings:
   - settings.velocity-support.secret
   - settings.seed
   - server-ip
+  - web-services.token
   history-interval: 300
   history-length: 3600
   server-name: Unknown Server
 world-settings:
   default:
+    split-overstacked-loot: true
+    map-item-frame-cursor-update-interval: 10
     delay-chunk-unloads-by: 10s
     seed-based-feature-search: true
     seed-based-feature-search-loads-chunks: true
@@ -225,8 +251,27 @@ world-settings:
     squid-spawn-height:
       maximum: 0.0
     despawn-ranges:
-      soft: 32
-      hard: 128
+      monster:
+        soft: 32
+        hard: 128
+      creature:
+        soft: 32
+        hard: 128
+      ambient:
+        soft: 32
+        hard: 128
+      underground_water_creature:
+        soft: 32
+        hard: 128
+      water_creature:
+        soft: 32
+        hard: 128
+      water_ambient:
+        soft: 32
+        hard: 64
+      misc:
+        soft: 32
+        hard: 128
     max-growth-height:
       cactus: 3
       reeds: 3
@@ -291,11 +336,14 @@ world-settings:
       zombies: false
       skeletons: false
     spawn-limits:
-      monsters: -1
-      animals: -1
-      water-animals: -1
-      water-ambient: -1
+      monster: -1
+      creature: -1
+      underground_water_creature: -1
+      water_creature: -1
+      water_ambient: -1
       ambient: -1
+    feature-seeds:
+      generate-random-seeds-for-all: false
   world_nether:
     keep-spawn-loaded: false
     auto-save-interval: 9600

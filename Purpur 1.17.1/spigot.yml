@@ -12,6 +12,7 @@
 
 config-version: 12
 settings:
+  log-named-deaths: true
   debug: false
   bungeecord: false
   sample-count: 12
@@ -62,6 +63,7 @@ commands:
   silent-commandblock-console: false
 world-settings:
   default:
+    thunder-chance: 100000
     verbose: false
     enable-zombie-pigmen-portal-spawns: true
     item-despawn-rate: 6000
