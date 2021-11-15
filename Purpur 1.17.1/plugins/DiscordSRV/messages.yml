@@ -28,12 +28,27 @@
 #                    example: Notch
 # %channelname%:    name of the channel that the message is coming from
 #                    example: server-chat
+# %reply%:          the message displayed when the message is a reply to another message.
+#                    The message format can be configured with DiscordToMinecraftMessageReplyFormat,
+#                    this will be empty if the message isn't a reply to another message
 #
 # DiscordToMinecraftAllRolesSeparator: the separator used in between roles in %allroles%
+#
+# DiscordToMinecraftMessageReplyFormat: the format for the message displayed to indicate that the message is a reply
+#
+# Available placeholders:
+# %name%:          the effective name of the user that is being replied to on Discord (nickname if present, username otherwise)
+#                   example: NotchIsMe
+# %username%:      the username of the user that is being replied to on Discord
+#                   example: Notch
+# %message%:       the content of the message that is being replied to
+#
+# NOTE: The %reply% placeholder needs to be present in the format if you want the DiscordToMinecraftMessageReplyFormat to display in your message.
 #
 DiscordToMinecraftChatMessageFormat: "[<aqua>Discord</aqua> | %toprolecolor%%toprolealias%<reset>] %name% » %message%"
 DiscordToMinecraftChatMessageFormatNoRole: "[<aqua>Discord</aqua>] %name% » %message%"
 DiscordToMinecraftAllRolesSeparator: " | "
+DiscordToMinecraftMessageReplyFormat: " (replying to %name%)"
 
 # Minecraft -> Discord message
 #
@@ -176,7 +191,7 @@ DiscordChatChannelListCommandAllPlayersSeparator: ", "
 # Available placeholders for PlayerJoin messages:
 # %message%:        join message as seen in-game
 #
-MinecraftPlayerJoinMessage:
+MinecraftPlayerJoinMessage: 
   Enabled: true
   Webhook:
     Enable: false
@@ -205,7 +220,7 @@ MinecraftPlayerJoinMessage:
 # Available placeholders for PlayerFirstJoin messages:
 # %message%:        join message as seen in-game
 #
-MinecraftPlayerFirstJoinMessage:
+MinecraftPlayerFirstJoinMessage: 
   Enabled: true
   Webhook:
     Enable: false
@@ -234,7 +249,7 @@ MinecraftPlayerFirstJoinMessage:
 # Available placeholders for PlayerLeave messages:
 # %message%:        leave message as seen in-game
 #
-MinecraftPlayerLeaveMessage:
+MinecraftPlayerLeaveMessage: 
   Enabled: true
   Webhook:
     Enable: false
@@ -264,7 +279,7 @@ MinecraftPlayerLeaveMessage:
 # %deathmessage%: raw death message
 # %world%:        the name of the world the user died in
 #
-MinecraftPlayerDeathMessage:
+MinecraftPlayerDeathMessage: 
   Enabled: true
   Webhook:
     Enable: false
@@ -294,7 +309,7 @@ MinecraftPlayerDeathMessage:
 # %achievement%: title of the achievement/advancement
 # %world%:       the name of the world the user is in
 #
-MinecraftPlayerAchievementMessage:
+MinecraftPlayerAchievementMessage: 
   Enabled: true
   Webhook:
     Enable: false
