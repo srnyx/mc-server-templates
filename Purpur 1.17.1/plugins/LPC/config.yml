@@ -17,7 +17,7 @@
 # More information can be found at https://www.spigotmc.org/resources/68965.
 
 # A standard chat format for all chat, which will meet almost every user's expectations.
-chat-format: "{prefix}{name}{suffix} &7> &r{message}"
+chat-format: "{prefix}{name}{suffix} &7» &r{message}"
 
 # Use group formats, if you need e.g. a different placeholder arrangement for different groups or want to display custom Unicode using resource pack.
 # Make sure to remove the '#' to allow the setting to be read.
