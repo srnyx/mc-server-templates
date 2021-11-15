@@ -1,0 +1,136 @@
+# DO NOT CHANGE THIS FILE! IT WILL BREAK YOUR SERVER!
+# DO NOT CHANGE THIS FILE! IT WILL BREAK YOUR SERVER!
+# DO NOT CHANGE THIS FILE! IT WILL BREAK YOUR SERVER!
+
+not-installed-message: |-
+
+  ****************************************
+  %plugin% is not installed!
+  You can download it at %link%
+  Make sure to download the latest version.
+  Place the jar file into the plugins folder once downloaded.
+  ****************************************
+
+# If true, the server will be stopped
+# If false, only a warning will be displayed
+required-plugins:
+
+  ConsoleSpamFix:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/18410"
+
+  CoreProtect:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/8631"
+
+  DiscordSRV:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/18494"
+
+  Essentials:
+    stop-server: true
+    download-link: "https://essentialsx.net/downloads.html (USE STABLE RELEASES)"
+
+  EssentialsSpawn:
+    stop-server: true
+    download-link: "https://essentialsx.net/downloads.html (USE STABLE RELEASES)"
+
+  FarmControl:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/86923"
+
+  FastAsyncWorldEdit:
+    stop-server: true
+    download-link: "https://ci.athion.net/job/FastAsyncWorldEdit-1.17/lastSuccessfulBuild/artifact/artifacts/*Bukkit*"
+
+  SpigotFixTeamChatPlugin:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/70726"
+
+  InventoryRollbackPlus:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/85811"
+
+  LimitPillagers:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/69733"
+
+  LPC:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/68965"
+
+  LuckPerms:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/28140"
+
+  Multiverse-Core:
+    stop-server: true
+    download-link: "https://dev.bukkit.org/projects/multiverse-core/files/latest (auto-downloads)"
+
+  Multiverse-Inventories:
+    stop-server: true
+    download-link: "https://dev.bukkit.org/projects/multiverse-inventories/files/latest (auto-downloads)"
+
+  MyCommand:
+    stop-server: true
+    download-link: "https://dev.bukkit.org/projects/mycommand/files/latest (auto-downloads)"
+
+  PlaceholderAPI:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/6245"
+
+  PlugMan:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/88135"
+
+  ProtocolLib:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/1997"
+
+  Scoreboard-revision:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/14754"
+
+  TAB:
+    stop-server: true
+    download-link: "https://mc-market.org/resources/20631"
+
+  TAB-Additions:
+    stop-server: true
+    download-link: "https://bugzmod.com/plugins/tabadditions"
+
+  VanillaTweaks:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/81288"
+
+  Vault:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/34315"
+
+  ViewDistanceTweaks:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/75164"
+
+  VillagerOptimiser:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/68517"
+
+  VooDooPlugin:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/81794"
+
+  WorldEditSelectionVisualizer:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/17311"
+
+  WorldGuard:
+    stop-server: true
+    download-link: "https://dev.bukkit.org/projects/worldguard/files/latest (auto-downloads)"
+
+  WorldGuardExtraFlags:
+    stop-server: true
+    download-link: "https://spigotmc.org/resources/4823"
+  
+# DO NOT CHANGE THIS FILE! IT WILL BREAK YOUR SERVER!
+# DO NOT CHANGE THIS FILE! IT WILL BREAK YOUR SERVER!
+# DO NOT CHANGE THIS FILE! IT WILL BREAK YOUR SERVER!
