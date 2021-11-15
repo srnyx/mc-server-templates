@@ -2,14 +2,15 @@
 # DO NOT CHANGE THIS FILE! IT WILL BREAK YOUR SERVER!
 # DO NOT CHANGE THIS FILE! IT WILL BREAK YOUR SERVER!
 
-not-installed-message: |-
+not-installed-message: |
 
-  ****************************************
-  %plugin% is not installed!
-  You can download it at %link%
-  Make sure to download the latest version.
-  Place the jar file into the plugins folder once downloaded.
-  ****************************************
+
+  §b%plugin% §ais not installed!
+  §aYou can download it at §b§n%link%§r
+  §aMake sure to download the latest version.
+  §aPlace the jar file into the plugins folder once downloaded.
+  
+#  §c****************************************
 
 # If true, the server will be stopped
 # If false, only a warning will be displayed
@@ -29,11 +30,11 @@ required-plugins:
 
   Essentials:
     stop-server: true
-    download-link: "https://essentialsx.net/downloads.html (USE STABLE RELEASES)"
+    download-link: "https://essentialsx.net/downloads.html§a§o (USE STABLE RELEASES)"
 
   EssentialsSpawn:
     stop-server: true
-    download-link: "https://essentialsx.net/downloads.html (USE STABLE RELEASES)"
+    download-link: "https://essentialsx.net/downloads.html§a§o (USE STABLE RELEASES)"
 
   FarmControl:
     stop-server: true
@@ -65,15 +66,15 @@ required-plugins:
 
   Multiverse-Core:
     stop-server: true
-    download-link: "https://dev.bukkit.org/projects/multiverse-core/files/latest (auto-downloads)"
+    download-link: "https://dev.bukkit.org/projects/multiverse-core/files/latest§a§o (auto-downloads)"
 
   Multiverse-Inventories:
     stop-server: true
-    download-link: "https://dev.bukkit.org/projects/multiverse-inventories/files/latest (auto-downloads)"
+    download-link: "https://dev.bukkit.org/projects/multiverse-inventories/files/latest§a§o (auto-downloads)"
 
   MyCommand:
     stop-server: true
-    download-link: "https://dev.bukkit.org/projects/mycommand/files/latest (auto-downloads)"
+    download-link: "https://dev.bukkit.org/projects/mycommand/files/latest§a§o (auto-downloads)"
 
   PlaceholderAPI:
     stop-server: true
@@ -125,7 +126,7 @@ required-plugins:
 
   WorldGuard:
     stop-server: true
-    download-link: "https://dev.bukkit.org/projects/worldguard/files/latest (auto-downloads)"
+    download-link: "https://dev.bukkit.org/projects/worldguard/files/latest§a§o (auto-downloads)"
 
   WorldGuardExtraFlags:
     stop-server: true
