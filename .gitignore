@@ -1,49 +1,47 @@
-eula.txt
-.fabric
-.mixin.out
-logs
-advcancements
-datapacks
-entities
-playerdata
-poi
-region
-scripts
-stats
-level.dat
-level.dat_old
-session.lock
-#.github
 LICENSE
 README.md
 *.old
 
 
 
-# Fabric
-fabric-server-launcher.properties
-.fabric-installer
+# All templates
+*/eula.txt
+*/logs
+*/banned-ips.json
+*/banned-players.json
+*/ops.json
+*/usercache.json
+*/whitelist.json
+*/world*/scripts
+*/world*/advcancements
+*/world*/datapacks
+*/world*/entities
+*/world*/playerdata
+*/world*/poi
+*/world*/region
+*/world*/stats
+*/world*/level.dat
+*/world*/level.dat_old
+*/world*/session.lock
 
+
+
+# Fabric
+Fabric 1.1*/fabric-server-launcher.properties
+Fabric 1.1*/.fabric-installer
+Fabric 1.1*/world/data
+Fabric 1.1*/world/DIM1
+Fabric 1.1*/world/DIM-1
+Fabric 1.1*/gunpowder.db
+Fabric 1.1*/crash-reports
+Fabric 1.1*/not-enough-crashes
+Fabric 1.1*/.fabric
+Fabric 1.1*/.mixin.out
 
 # Fabric 1.17.1
-Fabric 1.17.1/world/data
-Fabric 1.17.1/world/DIM1
-Fabric 1.17.1/world/DIM-1
-Fabric 1.17.1/crash-reports
-Fabric 1.17.1/gunpowder.db
-
-# Fabric 1.17.1 CONFIGS
 Fabric 1.17.1/config
 
-
 # Fabric 1.16.5
-Fabric 1.16.5/gunpowder.db
-Fabric 1.16.5/not-enough-crashes
-Fabric 1.16.5/world/data
-Fabric 1.16.5/world/DIM1
-Fabric 1.16.5/world/DIM-1
-
-# Fabric 1.16.5 CONFIGS
 Fabric 1.16.5/config/fdlink
 Fabric 1.16.5/config/chat_plus.json
 Fabric 1.16.5/config/gunpowder.yaml
@@ -56,52 +54,46 @@ Fabric 1.16.5/config/smoothboot.json
 Fabric 1.16.5/config/ferritecore.mixin.properties
 
 
+
 # Paper/Purpur
-banned-ips.json
-banned-players.json
-ops.json
-usercache.json
-whitelist.json
-.console_history
-cache
-world_nether
-world_the_end
-commands.yml
-help.yml
-permissions.yml
-wepif.yml
-usercache.json
-version_history.json
-tuinity.yml
+P*/.console_history
+P*/cache
+P*/world_nether
+P*/world_the_end
+P*/commands.yml
+P*/help.yml
+P*/permissions.yml
+P*/wepif.yml
+P*/version_history.json
+P*/tuinity.yml
+P*/world
 
 # Paper/Purpur PLUGINS
-bStats
-LuckPerms
-MyCommand
-PluginManager
-PluginMetrics
-ProtocolLib
-Updater
-WorldGuard
-Vault
-FastAsyncWorldEdit
-InventoryRollbackPlus
-CoreProtect
-VillagerOptimiser
-Multiverse-Inventories
-LimitPillagers
-EntityTrackerFixer
-TAB-Additions
+P*/plugins/bStats
+P*/plugins/LuckPerms
+P*/plugins/MyCommand
+P*/plugins/PluginManager
+P*/plugins/PluginMan
+P*/plugins/PluginMetrics
+P*/plugins/ProtocolLib
+P*/plugins/Updater
+P*/plugins/WorldGuard
+P*/plugins/Vault
+P*/plugins/FastAsyncWorldEdit
+P*/plugins/InventoryRollbackPlus
+P*/plugins/CoreProtect
+P*/plugins/VillagerOptimiser
+P*/plugins/Multiverse-Inventories
+P*/plugins/LimitPillagers
+P*/plugins/EntityTrackerFixer
+P*/plugins/TAB-Additions
+P*/plugins/FarmControl/profiles.yml
 
 
 # Paper 1.8.8
-Paper 1.8.8/world
-
-# Paper 1.8.8 PLUGINS
-# WorldMania
-Paper 1.8.8/plugins/WorldMania/Languages
-Paper 1.8.8/plugins/WorldMania/settings.json
-Paper 1.8.8/plugins/WorldMania/worlds.json
+# DiscordSRV
+Paper 1.8.8/plugins/DiscordSRV/voice.yml
+Paper 1.8.8/plugins/DiscordSRV/alerts.yml
 # Essentials
 Paper 1.8.8/plugins/Essentials/userdata
 Paper 1.8.8/plugins/Essentials/items.json
@@ -112,19 +104,20 @@ Paper 1.8.8/plugins/Essentials/kits.yml
 Paper 1.8.8/plugins/Essentials/tpr.yml
 Paper 1.8.8/plugins/Essentials/upgrades-done.yml
 Paper 1.8.8/plugins/Essentials/worth.yml
-# WorldEdit
-Paper 1.8.8/plugins/WorldEdit
 # ViaVersion
 Paper 1.8.8/plugins/ViaVersion
-# DiscordSRV
-Paper 1.8.8/plugins/DiscordSRV/voice.yml
-Paper 1.8.8/plugins/DiscordSRV/alerts.yml
+# WorldEdit
+Paper 1.8.8/plugins/WorldEdit
+# WorldMania
+Paper 1.8.8/plugins/WorldMania/Languages
+Paper 1.8.8/plugins/WorldMania/settings.json
+Paper 1.8.8/plugins/WorldMania/worlds.json
 
 
 # Purpur 1.16.5
-Purpur 1.16.5/world
-
-# Purpur 1.16.5 PLUGINS
+# DiscordSRV
+Purpur 1.16.5/plugins/DiscordSRV/voice.yml
+Purpur 1.16.5/plugins/DiscordSRV/alerts.yml
 # Essentials
 Purpur 1.16.5/plugins/Essentials/userdata
 Purpur 1.16.5/plugins/Essentials/items.json
@@ -138,6 +131,11 @@ Purpur 1.16.5/plugins/Essentials/worth.yml
 # Multiverse-Core
 Purpur 1.16.5/plugins/Multiverse-Core/scripts
 Purpur 1.16.5/plugins/Multiverse-Core/worlds.yml
+# Scoreboard-revision
+Purpur 1.16.5/plugins/Scoreboard-revision/language.yml
+# TAB
+Purpur 1.16.5/plugins/TAB/bossbar.yml
+Purpur 1.16.5/plugins/TAB/translation.yml
 # VanillaTweaks
 Purpur 1.16.5/plugins/VanillaTweaks/config.yml
 Purpur 1.16.5/plugins/VanillaTweaks/lang.yml
@@ -152,22 +150,8 @@ Purpur 1.16.5/plugins/VanillaTweaks/villagerdeathmessages
 Purpur 1.16.5/plugins/VanillaTweaks/wanderingtrades
 Purpur 1.16.5/plugins/VanillaTweaks/wrench
 Purpur 1.16.5/plugins/VanillaTweaks/durabilityping
-# DiscordSRV
-Purpur 1.16.5/plugins/DiscordSRV/voice.yml
-Purpur 1.16.5/plugins/DiscordSRV/alerts.yml
-# Scoreboard-revision
-Purpur 1.16.5/plugins/Scoreboard-revision/language.yml
-# TAB
-Purpur 1.16.5/plugins/TAB/bossbar.yml
-Purpur 1.16.5/plugins/TAB/translation.yml
-# FarmControl
-Purpur 1.16.5/plugins/FarmControl
-
 
 # Purpur 1.17.1
-Purpur 1.17.1/world
-
-# Purpur 1.17.1 PLUGINS
 # DiscordSRV
 Purpur 1.17.1/plugins/DiscordSRV/voice.yml
 Purpur 1.17.1/plugins/DiscordSRV/alerts.yml
@@ -181,8 +165,8 @@ Purpur 1.17.1/plugins/Essentials/kits.yml
 Purpur 1.17.1/plugins/Essentials/tpr.yml
 Purpur 1.17.1/plugins/Essentials/upgrades-done.yml
 Purpur 1.17.1/plugins/Essentials/worth.yml
-# FarmControl
-Purpur 1.17.1/plugins/FarmControl/profiles.yml
+# Multiverse-Core
+Purpur 1.17.1/plugins/Multiverse-Core/worlds.yml
 # VanillaTweaks
 Purpur 1.17.1/plugins/VanillaTweaks/config.yml
 Purpur 1.17.1/plugins/VanillaTweaks/lang.yml
@@ -197,5 +181,3 @@ Purpur 1.17.1/plugins/VanillaTweaks/villagerdeathmessages
 Purpur 1.17.1/plugins/VanillaTweaks/wanderingtrades
 Purpur 1.17.1/plugins/VanillaTweaks/wrench
 Purpur 1.17.1/plugins/VanillaTweaks/durabilityping
-# Multiverse-Core
-Purpur 1.17.1/plugins/Multiverse-Core/worlds.yml
