@@ -80,7 +80,7 @@ required-plugins:
     stop-server: true
     download-link: "https://spigotmc.org/resources/6245"
 
-  PlugMan:
+  PlugManX:
     stop-server: true
     download-link: "https://spigotmc.org/resources/88135"
 
