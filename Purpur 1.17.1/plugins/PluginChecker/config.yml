@@ -16,9 +16,9 @@ not-installed-message: |
 # If false, only a warning will be displayed
 required-plugins:
 
-  CommandHook:
-    stop-server: true
-    download-link: https://spigotmc.org/resources/61415
+#  CommandHook:
+#    stop-server: true
+#    download-link: https://spigotmc.org/resources/61415
 
   ConsoleSpamFix:
     stop-server: true
