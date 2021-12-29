@@ -48,9 +48,9 @@ required-plugins:
     stop-server: true
     download-link: "https://ci.athion.net/job/FastAsyncWorldEdit-1.17/lastSuccessfulBuild/artifact/artifacts/*Bukkit*"
 
-  SpigotFixTeamChatPlugin:
-    stop-server: true
-    download-link: "https://spigotmc.org/resources/70726"
+#  SpigotFixTeamChatPlugin:
+#    stop-server: true
+#    download-link: "https://spigotmc.org/resources/70726"
 
   InventoryRollbackPlus:
     stop-server: true
@@ -116,9 +116,9 @@ required-plugins:
     stop-server: true
     download-link: "https://spigotmc.org/resources/75164"
 
-  VillagerOptimiser:
-    stop-server: true
-    download-link: "https://spigotmc.org/resources/68517"
+#  VillagerOptimiser:
+#    stop-server: true
+#    download-link: "https://spigotmc.org/resources/68517"
 
   VooDooPlugin:
     stop-server: true
