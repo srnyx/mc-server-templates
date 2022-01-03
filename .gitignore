@@ -40,7 +40,8 @@ Fabric 1.1*/.mixin.out
 Fabric 1.1*/server.jar
 
 # Fabric 1.17.1
-Fabric 1.17.1/config
+Fabric 1.17.1/config/*
+!Fabric 1.17.1/config/shutupconsole.toml
 
 # Fabric 1.16.5
 Fabric 1.16.5/config/fdlink
