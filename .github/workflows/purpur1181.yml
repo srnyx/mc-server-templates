@@ -1,0 +1,23 @@
+name: Purpur 1.18.1 Builds
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'Purpur 1.18.1/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'Purpur 1.18.1/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - run: mkdir -p Purpur 1.18.1
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Purpur 1.18.1
+        path: Purpur 1.18.1

@@ -38,22 +38,11 @@ Fabric 1.1*/not-enough-crashes
 Fabric 1.1*/.fabric
 Fabric 1.1*/.mixin.out
 Fabric 1.1*/server.jar
+Fabric 1.1*/config/*
+!Fabric 1.1*/config/shutupconsole.toml
 
-# Fabric 1.17.1
-Fabric 1.17.1/config/*
-!Fabric 1.17.1/config/shutupconsole.toml
-
-# Fabric 1.16.5
-Fabric 1.16.5/config/fdlink
-Fabric 1.16.5/config/chat_plus.json
-Fabric 1.16.5/config/gunpowder.yaml
-Fabric 1.16.5/config/jline4mcdsrv.toml
-Fabric 1.16.5/config/lithium.properties
-Fabric 1.16.5/config/notenoughcrashes.json
-Fabric 1.16.5/config/overworldtwo.json
-Fabric 1.16.5/config/randompatches.toml
-Fabric 1.16.5/config/smoothboot.json
-Fabric 1.16.5/config/ferritecore.mixin.properties
+## Fabric 1.18.1
+Fabric 1.18.1/versions
 
 
 
@@ -67,15 +56,15 @@ P*/help.yml
 P*/permissions.yml
 P*/wepif.yml
 P*/version_history.json
-P*/tuinity.yml
 P*/world
 
-# Paper/Purpur PLUGINS
+## Paper/Purpur PLUGINS
 P*/plugins/bStats
 P*/plugins/LuckPerms
 P*/plugins/MyCommand
 P*/plugins/PluginManager
 P*/plugins/PlugMan
+P*/plugins/PlugManX
 P*/plugins/PluginMetrics
 P*/plugins/ProtocolLib
 P*/plugins/Updater
@@ -90,97 +79,63 @@ P*/plugins/LimitPillagers
 P*/plugins/EntityTrackerFixer
 P*/plugins/TAB-Additions
 P*/plugins/FarmControl/profiles.yml
-P*/plugins/Scoreboard-revision
+### Essentials
+P*/plugins/Essentials/userdata
+P*/plugins/Essentials/items.json
+P*/plugins/Essentials/warps
+P*/plugins/Essentials/custom_items.yml
+P*/plugins/Essentials/items.csv
+P*/plugins/Essentials/kits.yml
+P*/plugins/Essentials/tpr.yml
+P*/plugins/Essentials/upgrades-done.yml
+P*/plugins/Essentials/worth.yml
+### DiscordSRV
+P*/plugins/DiscordSRV/voice.yml
+P*/plugins/DiscordSRV/alerts.yml
 
 
-# Paper 1.8.8
-# DiscordSRV
-Paper 1.8.8/plugins/DiscordSRV/voice.yml
-Paper 1.8.8/plugins/DiscordSRV/alerts.yml
-# Essentials
-Paper 1.8.8/plugins/Essentials/userdata
-Paper 1.8.8/plugins/Essentials/items.json
-Paper 1.8.8/plugins/Essentials/warps
-Paper 1.8.8/plugins/Essentials/custom_items.yml
-Paper 1.8.8/plugins/Essentials/items.csv
-Paper 1.8.8/plugins/Essentials/kits.yml
-Paper 1.8.8/plugins/Essentials/tpr.yml
-Paper 1.8.8/plugins/Essentials/upgrades-done.yml
-Paper 1.8.8/plugins/Essentials/worth.yml
-# ViaVersion
+## Paper 1.8.8
+### ViaVersion
 Paper 1.8.8/plugins/ViaVersion
-# WorldEdit
+## WorldEdit
 Paper 1.8.8/plugins/WorldEdit
-# WorldMania
+### WorldMania
 Paper 1.8.8/plugins/WorldMania/Languages
 Paper 1.8.8/plugins/WorldMania/settings.json
 Paper 1.8.8/plugins/WorldMania/worlds.json
 
 
-# Purpur 1.16.5
-# DiscordSRV
-Purpur 1.16.5/plugins/DiscordSRV/voice.yml
-Purpur 1.16.5/plugins/DiscordSRV/alerts.yml
-# Essentials
-Purpur 1.16.5/plugins/Essentials/userdata
-Purpur 1.16.5/plugins/Essentials/items.json
-Purpur 1.16.5/plugins/Essentials/warps
-Purpur 1.16.5/plugins/Essentials/custom_items.yml
-Purpur 1.16.5/plugins/Essentials/items.csv
-Purpur 1.16.5/plugins/Essentials/kits.yml
-Purpur 1.16.5/plugins/Essentials/tpr.yml
-Purpur 1.16.5/plugins/Essentials/upgrades-done.yml
-Purpur 1.16.5/plugins/Essentials/worth.yml
-# Multiverse-Core
-Purpur 1.16.5/plugins/Multiverse-Core/scripts
-Purpur 1.16.5/plugins/Multiverse-Core/worlds.yml
-# Scoreboard-revision
-Purpur 1.16.5/plugins/Scoreboard-revision/language.yml
-# TAB
+# Purpur
+Purpur*/pufferfish.yml
+Purpur*/tuinity.yml
+Purpur*/plugins/*.jar
+!Purpur*/plugins/FarmControl*.jar
+!Purpur*/plugins/InventoryRollbackPlus*.jar
+!Purpur*/plugins/LuckPerms*.jar
+!Purpur*/plugins/PluginChecker*.jar
+!Purpur*/plugins/PlugManX*.jar
+!Purpur*/plugins/ViewDistanceTweaks*.jar
+!Purpur*/plugins/WorldEditSelectionVisualizer*.jar
+!Purpur*/plugins/WorldGuardExtraFlags*.jar
+
+## Purpur PLUGINS
+### Multiverse-Core
+Purpur*/plugins/Multiverse-Core/scripts
+Purpur*/plugins/Multiverse-Core/worlds.yml
+### VanillaTweaks
+Purpur*/plugins/VanillaTweaks/*
+!Purpur*/plugins/VanillaTweaks/modules.yml
+!Purpur*/plugins/VanillaTweaks/moremobheads
+!Purpur*/plugins/VanillaTweaks/tag
+
+## Purpur 1.16.5
+### TAB
 Purpur 1.16.5/plugins/TAB/bossbar.yml
 Purpur 1.16.5/plugins/TAB/translation.yml
-# VanillaTweaks
-Purpur 1.16.5/plugins/VanillaTweaks/config.yml
-Purpur 1.16.5/plugins/VanillaTweaks/lang.yml
-Purpur 1.16.5/plugins/VanillaTweaks/confetticreepers
-Purpur 1.16.5/plugins/VanillaTweaks/coordinateshud
-Purpur 1.16.5/plugins/VanillaTweaks/multiplayersleep
-Purpur 1.16.5/plugins/VanillaTweaks/netherportalcoords
-Purpur 1.16.5/plugins/VanillaTweaks/pillagertools
-Purpur 1.16.5/plugins/VanillaTweaks/playergraves
-Purpur 1.16.5/plugins/VanillaTweaks/sethome
-Purpur 1.16.5/plugins/VanillaTweaks/villagerdeathmessages
-Purpur 1.16.5/plugins/VanillaTweaks/wanderingtrades
-Purpur 1.16.5/plugins/VanillaTweaks/wrench
-Purpur 1.16.5/plugins/VanillaTweaks/durabilityping
 
-# Purpur 1.17.1
-# DiscordSRV
-Purpur 1.17.1/plugins/DiscordSRV/voice.yml
-Purpur 1.17.1/plugins/DiscordSRV/alerts.yml
-# Essentials
-Purpur 1.17.1/plugins/Essentials/userdata
-Purpur 1.17.1/plugins/Essentials/items.json
-Purpur 1.17.1/plugins/Essentials/warps
-Purpur 1.17.1/plugins/Essentials/custom_items.yml
-Purpur 1.17.1/plugins/Essentials/items.csv
-Purpur 1.17.1/plugins/Essentials/kits.yml
-Purpur 1.17.1/plugins/Essentials/tpr.yml
-Purpur 1.17.1/plugins/Essentials/upgrades-done.yml
-Purpur 1.17.1/plugins/Essentials/worth.yml
-# Multiverse-Core
-Purpur 1.17.1/plugins/Multiverse-Core/worlds.yml
-# VanillaTweaks
-Purpur 1.17.1/plugins/VanillaTweaks/config.yml
-Purpur 1.17.1/plugins/VanillaTweaks/lang.yml
-Purpur 1.17.1/plugins/VanillaTweaks/confetticreepers
-Purpur 1.17.1/plugins/VanillaTweaks/coordinateshud
-Purpur 1.17.1/plugins/VanillaTweaks/multiplayersleep
-Purpur 1.17.1/plugins/VanillaTweaks/netherportalcoords
-Purpur 1.17.1/plugins/VanillaTweaks/pillagertools
-Purpur 1.17.1/plugins/VanillaTweaks/playergraves
-Purpur 1.17.1/plugins/VanillaTweaks/sethome
-Purpur 1.17.1/plugins/VanillaTweaks/villagerdeathmessages
-Purpur 1.17.1/plugins/VanillaTweaks/wanderingtrades
-Purpur 1.17.1/plugins/VanillaTweaks/wrench
-Purpur 1.17.1/plugins/VanillaTweaks/durabilityping
+## Purpur 1.18.1
+Purpur 1.18.1/libraries
+Purpur 1.18.1/versions
+Purpur 1.18.1/plugins/TAB/layout.yml
+Purpur 1.18.1/plugins/TAB/messages.yml
+Purpur 1.18.1/plugins/TAB/users.yml

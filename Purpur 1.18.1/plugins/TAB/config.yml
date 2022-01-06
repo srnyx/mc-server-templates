@@ -1,0 +1,196 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+
+header-footer:
+  enabled: true
+  disable-in-worlds:
+    - disabledworld
+  header:
+    - "&a&lMy &2&lServer"
+    - "&2TPS: &7%server_tps_1%&7/20.0"
+    - "&2MSPT: &7%mspt%"
+    - "&2RAM: &7%server_ram_used%/%server_ram_max% MB"
+    - "&2Online: &7%online%"
+  footer:
+    - "&7temp.srnyx.xyz/mc"
+  per-world: {}
+#    world1:
+#      header:
+#        - "an example of world with custom"
+#      footer:
+#        - "header/footer and prefix/suffix"
+#    world2;world3:
+#      header:
+#        - "This is a shared header for"
+#        - "world2 and world3"
+
+tablist-name-formatting:
+  enabled: true
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+  anti-override: true
+  disable-in-worlds: []
+#    - disabledworld
+
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  anti-override: true
+  sorting-types:
+    - "GROUPS:owner,admin,mod,vip,default"
+    - "PLACEHOLDER_A_TO_Z:%player%"
+  case-sensitive-sorting: false
+  disable-in-worlds: []
+#    - disabledworld
+  unlimited-nametag-mode:
+    enabled: false
+    use-marker-tag-for-1-8-x-clients: false
+    disable-on-boats: true
+    space-between-lines: 0.22
+    disable-in-worlds: []
+#      - disabledworld
+    dynamic-lines:
+      - abovename
+      - nametag #the original one, combination of tagprefix + customtagname + tagsuffix
+      - belowname
+      - another
+    static-lines:
+      myCustomLine: 0.66
+
+yellow-number-in-tablist:
+  enabled: true
+  value: "%player_ping%"
+  disable-in-worlds: []
+#    - disabledworld
+
+belowname-objective:
+  enabled: true
+  number: "%health%"
+  text: "Health"
+  disable-in-worlds: []
+#    - disabledworld
+
+prevent-spectator-effect:
+  enabled: false
+
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  disable-in-worlds:
+    - disabledworld
+  bars:
+    ServerInfo:
+      style: "PROGRESS" # for 1.9+: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+      color: "%animation:barcolors%" # for 1.9+: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
+      progress: "100" # in %
+      text: "&fWebsite: &bwww.domain.com"
+
+per-world-playerlist:
+  enabled: false
+  # players with tab.staff will always see all players
+  allow-bypass-permission: false
+  # players in these worlds will always see all players
+  ignore-effect-in-worlds:
+    - ignoredworld
+    - build
+  shared-playerlist-world-groups:
+    lobby:
+      - lobby1
+      - lobby2
+    minigames:
+      - paintball
+      - bedwars
+
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  respect-other-plugins: true
+  disable-in-worlds: []
+#    - disabledworld
+  scoreboards:
+    default:
+      title: "&a&lMy &2&lServer"
+      lines:
+        - "%animation:bar%"
+        - "%condition:sb_rank%"
+        - "&2Money: &7$%vault_eco_balance_commas%"
+        - "%animation:bar%"
+
+ping-spoof:
+  enabled: false
+  value: 0
+
+fix-pet-names:
+  enabled: true
+
+placeholders:
+  date-format: "dd.MM.yyyy"
+  time-format: "[HH:mm:ss / h:mm a]"
+  time-offset: 0
+  remove-strings:
+    - "[]"
+    - "< >"
+
+placeholder-output-replacements:
+#  "%essentials_vanished%":
+#    "yes": "&7| Vanished"
+#    "no": ""
+#  "%afk%":
+#    true: " &8[&7AFK&8]"
+#    false: ""
+  "%essentials_nickname%":
+    "%essentials_nickname%": "%player%"
+
+conditions:
+  afk:
+    conditions:
+    - '%essentials_afk%=yes'
+    true: ' &8[&7AFK&8]%vault_suffix%'
+    false: '%condition:land%%vault_suffix%'
+    
+  sb_rank:
+    conditions:
+    - '%vault_rank%=&aPlayer'
+    true: ''
+    false: '&2Rank: &7%vault_rank%'
+
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+#  server:
+#    "%server_uptime%": 1000
+#    "%server_tps_1_colored%": 1000
+#    "%server_unique_joins%": 5000
+#  player:
+#    "%player_health%": 200
+#    "%player_ping%": 1000
+#    "%vault_prefix%": 1000
+#  relational:
+#    "%rel_factionsuuid_relation_color%": 1000
+
+#if none of the above fits your needs, you can enable this to give groups using tab.group.<group name from the list below> permission
+assign-groups-by-permissions: false
+
+#if the option above is true, all groups are taken based on permissions and the one higher in this list is used as primary
+primary-group-finding-list:
+  - owner
+  - admin
+  - mod
+  - vip
+  - default
+
+debug: false
+
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password

@@ -1,0 +1,53 @@
+# VooDoo Plugin Master Config
+#CutClean: false Disables all of the below. Change to true to turn it on
+#  FromPigs: false | False = Disable all of the pig related cooked porkchop drops
+#    pigmax: 2  Max amount of cooked pork to give out
+#    pigmin: 0  Min. amount of cooked pork to give out
+#    pigXPmax: 4 Max. XP to give out for killing pig
+#    pigXPmin: 10 Min. XP to give out for killing pig
+# CUTCLEAN
+bstats: true
+CutClean: false #Disables all of the below in CutClean. Change to true to turn it on and make what you want to true
+FromPigs: false #Should pigs drop cooked pork?
+pigmax: 2 #Max. amount it can drop
+pigmin: 0 #Min. it should drop
+pigXPmax: 10 # Max. XP it should drop
+pigXPmin: 4 #min. XP it should drop
+FromCows: false
+Cowsmax: 2
+Cowsmin: 0
+CowsXPmax: 10
+CowsXPmin: 4
+FromChicken: false
+Chickenmax: 2
+Chickenmin: 0
+ChickenXPmax: 10
+ChickenXPmin: 4
+FromSheep: false
+Sheepmax: 2
+Sheepmin: 0
+SheepXPmax: 10
+SheepXPmin: 4
+####### SMELTING
+SmeltedOres: false #Turn this section on
+SmeltedIron: false #Should we auto smelt iron ore to iron ingots?
+SmeltedGold: false #Should we auto smelt gold ore to gold ingots?
+GravelAlwaysFlint: false #Make gravel always drop flint.
+##### BAT MEMBRANES
+BatMembranes: true #Allow bats to drop Membranes.
+maxMembranes: 1
+minMembranes: 0
+#### BOTANCIAL
+Botancial_Replication_Recipes: true #Put in bonemeal, rotten flesh, and a flower to make 3
+### ZOMBIELEATHER
+ZombieLeatherRecipe: true #Put rotten flesh in a furnace and cook it to make leather!
+LeatherCookingTime: 160 # This is in ticks. 20 Ticks = 1 second
+LeatherCookingXP: 4 #Amount of XP to give
+### SNOWLAYER TO SNOWBLOCK
+SnowLayersToBlocks: true #8 Snow Layers in a chest format to a snow block
+### Mixed Stone Tools
+MixedStoneTools: true
+### Blasted Redstone Blocks
+BlastedRedstone: false
+BlastedRedstoneCookingTime: 160 # This is in ticks. 20 Ticks = 1 second
+BlastedRedstoneCookingXP: 4 #Amount of XP to give
