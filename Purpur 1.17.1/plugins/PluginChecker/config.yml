@@ -46,7 +46,7 @@ required-plugins:
 
   FastAsyncWorldEdit:
     stop-server: true
-    download-link: "https://ci.athion.net/job/FastAsyncWorldEdit-1.17/lastSuccessfulBuild/artifact/artifacts/*Bukkit*"
+    download-link: "https://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/artifacts/*Bukkit*.jar"
 
 #  SpigotFixTeamChatPlugin:
 #    stop-server: true
