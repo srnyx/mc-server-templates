@@ -15,9 +15,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - run: mkdir -p Purpur 1.16.5
-    - uses: actions/upload-artifact@v2
+    - name: Checkout code
+      uses: actions/checkout@v2
+      with:
+        lfs: 'true'
+    - name: Make directory
+      run: mkdir -p Purpur 1.16.5
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
       with:
         name: Purpur 1.16.5
         path: Purpur 1.16.5
