@@ -2,11 +2,11 @@ name: Purpur 1.18.1 Builds
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
     paths:
       - 'Purpur 1.18.1/**'
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
     paths:
       - 'Purpur 1.18.1/**'
   workflow_dispatch:

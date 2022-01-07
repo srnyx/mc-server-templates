@@ -2,11 +2,11 @@ name: Paper 1.8.8 Builds
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
     paths:
       - 'Paper 1.8.8/**'
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
     paths:
       - 'Paper 1.8.8/**'
   workflow_dispatch:

@@ -2,11 +2,11 @@ name: Fabric 1.16.5 Builds
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
     paths:
       - 'Fabric 1.16.5/**'
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
     paths:
       - 'Fabric 1.16.5/**'
   workflow_dispatch:
