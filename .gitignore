@@ -12,7 +12,7 @@ README.md
 */ops.json
 */usercache.json
 */whitelist.json
-*/world*
+*/world*/*
 */start.sh
 */libraries
 
@@ -41,14 +41,11 @@ Fabric 1.18.1/versions
 # Paper/Purpur
 P*/.console_history
 P*/cache
-P*/world_nether
-P*/world_the_end
 P*/commands.yml
 P*/help.yml
 P*/permissions.yml
 P*/wepif.yml
 P*/version_history.json
-P*/world
 
 ## Paper/Purpur PLUGINS
 P*/plugins/bStats
