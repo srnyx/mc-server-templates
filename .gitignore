@@ -12,27 +12,17 @@ README.md
 */ops.json
 */usercache.json
 */whitelist.json
-*/world*/scripts
-*/world*/advcancements
-*/world*/datapacks
-*/world*/entities
-*/world*/playerdata
-*/world*/poi
-*/world*/region
-*/world*/stats
-*/world*/level.dat
-*/world*/level.dat_old
-*/world*/session.lock
+*/world*
 */start.sh
 
 
 
 # Fabric
+!Fabric 1.1*/world/carpet.conf
+!Fabric 1.1*/config/shutupconsole.toml
+Fabric 1.1*/server-launch*.jar
 Fabric 1.1*/fabric-server-launcher.properties
 Fabric 1.1*/.fabric-installer
-Fabric 1.1*/world/data
-Fabric 1.1*/world/DIM1
-Fabric 1.1*/world/DIM-1
 Fabric 1.1*/gunpowder.db
 Fabric 1.1*/crash-reports
 Fabric 1.1*/not-enough-crashes
@@ -40,7 +30,6 @@ Fabric 1.1*/.fabric
 Fabric 1.1*/.mixin.out
 Fabric 1.1*/server.jar
 Fabric 1.1*/config/*
-!Fabric 1.1*/config/shutupconsole.toml
 
 ## Fabric 1.18.1
 Fabric 1.18.1/versions
