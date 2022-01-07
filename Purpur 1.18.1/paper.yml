@@ -21,7 +21,7 @@ messages:
     Please contact the server administrators if you believe that this is in error.'
 timings:
   enabled: true
-  really-enabled: false
+  really-enabled: true
   verbose: true
   url: https://timings.aikar.co/
   server-name-privacy: false
