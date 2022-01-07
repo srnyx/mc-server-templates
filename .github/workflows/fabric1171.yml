@@ -15,9 +15,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - run: mkdir -p Fabric 1.17.1
-    - uses: actions/upload-artifact@v2
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Make directory
+      run: mkdir -p Fabric 1.17.1
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
       with:
         name: Fabric 1.17.1
         path: Fabric 1.17.1
