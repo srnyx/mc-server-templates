@@ -1,5 +1,5 @@
 name: 🐛 Report a bug
-about: Report a bug, crash, mistake or unintended behaviour. Please file a seperate report for each problem.
+description: Report a bug, crash, mistake or unintended behaviour. Please file a seperate report for each problem.
 title: Add a descriptive title
 labels: bug
 assignees: srnyx
@@ -12,10 +12,10 @@ body:
         Additionally, please join [srnyx's World](https://srnyx.xyz/discord) and open a ticket via the #support channel with your issue so that we can confirm that it is a bug.
   - type: textarea
     attributes:
-	  label: General discription
-	  description: Please provide a general description of what happened.
-	validations:
-	  required: true
+      label: General discription
+      description: Please provide a general description of what happened.
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Expected behavior
