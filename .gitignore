@@ -98,6 +98,7 @@ Paper 1.8.8/plugins/WorldMania/worlds.json
 Purpur*/pufferfish.yml
 Purpur*/tuinity.yml
 Purpur*/plugins/*.jar
+Purpur*/airplane.yml
 !Purpur*/plugins/FarmControl*.jar
 !Purpur*/plugins/InventoryRollbackPlus*.jar
 !Purpur*/plugins/LuckPerms*.jar
