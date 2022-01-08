@@ -1,6 +1,7 @@
-# The configuration file for Shut Up Console
+[clean-logs]
+# Print out all phrases and regex to be filtered out on startup
+printOnStart = false
 
-[shutupconsole]
 # If a log message has one of these phrases, it will be filtered out from logging
 phrases = [
 "List of excessive indices:",

@@ -19,7 +19,6 @@ README.md
 
 
 # Fabric
-!Fabric 1.1*/world/carpet.conf
 Fabric 1.1*/server-launch*.jar
 Fabric 1.1*/fabric-server-launcher.properties
 Fabric 1.1*/.fabric-installer
@@ -30,8 +29,9 @@ Fabric 1.1*/.fabric
 Fabric 1.1*/.mixin.out
 Fabric 1.1*/server.jar
 Fabric 1.1*/config/*
-!Fabric 1.1*/config/shutupconsole.toml
-!Fabric 1.1*/config/dynview.json
+!Fabric 1.1*/config/clean-logs.toml
+!Fabric 1.1*/config/servercore.toml
+!Fabric 1.1*/world/carpet.conf
 
 ## Fabric 1.18.1
 Fabric 1.18.1/versions

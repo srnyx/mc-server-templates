@@ -1,6 +1,7 @@
-# The configuration file for Shut Up Console
+[clean-logs]
+# Print out all phrases and regex to be filtered out on startup
+printOnStart = false
 
-[shutupconsole]
 # If a log message has one of these phrases, it will be filtered out from logging
 phrases = [
 "List of excessive indices:",
@@ -10,7 +11,9 @@ phrases = [
 "Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$bjh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.",
 "Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children",
 "does not respect SemVer - comparison support is limited.",
-"uses more dot-separated version components than SemVer allows; support for this is currently not guaranteed."
+"uses more dot-separated version components than SemVer allows; support for this is currently not guaranteed.",
+"@Redirect conflict. Skipping servercore.mixins.json:features.ticking.ServerChunkCacheMixin->@Redirect::noList(I)Ljava/util/ArrayList; from mod servercore with priority 1000, already redirected by lithium.mixins.json:alloc.chunk_ticking.ServerChunkManagerMixin->@Redirect::redirectChunksListClone(I)Ljava/util/ArrayList; from mod lithium with priority 1000",
+"Method overwrite conflict for getLanguage in worldedit.mixins.json:MixinServerPlayer, previously written by carpet.mixins.ServerPlayerEntity_scarpetEventMixin. Skipping method."
 ]
 
 # If a log message matches one of these regex patterns, it will be filtered out from logging
