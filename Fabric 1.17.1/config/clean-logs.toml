@@ -2,13 +2,15 @@
 # Print out all phrases and regex to be filtered out on startup
 printOnStart = false
 
+# Print a single line on start saying that Clean Logs will filter from this point forward
+printInitLineOnStart = true
+
 # If a log message has one of these phrases, it will be filtered out from logging
 phrases = [
 "List of excessive indices:",
 "'Player'.'uuid' -> Player_uuid, sqlite_autoindex_Player_1",
 "Ambiguity between arguments",
 "@Redirect conflict. Skipping carpet.mixins.json:CommandManagerMixin->@Redirect::doesOutputCommandStackTrace(Lorg/apache/logging/log4j/Logger;)Z from mod carpet with priority 1000, already redirected by mixins.base.gunpowder.json:CommandManagerMixin_Base->@Redirect::isDebugEnabled(Lorg/apache/logging/log4j/Logger;)Z from mod gunpowder-base with priority 9999",
-"Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$bla000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.",
 "-fabric initialized",
 "Method overwrite conflict for getLanguage in worldedit.mixins.json:MixinServerPlayerEntity, previously written by carpet.mixins.ServerPlayerEntity_scarpetEventMixin. Skipping method.",
 "Mixin malte0811.ferritecore.mixin.chunknbt.ChunkSerializerMixin is disabled as Hydrogen is installed",
@@ -20,4 +22,6 @@ phrases = [
 ]
 
 # If a log message matches one of these regex patterns, it will be filtered out from logging
-regex = []
+regex = [
+"Shift\\.BY=3 on fabric-lifecycle-events-v1\\.mixins\\.json:server\\.WorldChunkMixin::handler\\$b..000\\$onLoadBlockEntity exceeds the maximum allowed value: 0\\. Increase the value of maxShiftBy to suppress this warning\\."
+]
