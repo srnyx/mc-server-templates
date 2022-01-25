@@ -5,10 +5,10 @@ on:
     branches: [ master ]
     paths:
       - 'Fabric 1.16.5/**'
-  pull_request:
-    branches: [ master ]
-    paths:
-      - 'Fabric 1.16.5/**'
+#  pull_request:
+#    branches: [ master ]
+#    paths:
+#      - 'Fabric 1.16.5/**'
   workflow_dispatch:
   
 jobs:

@@ -5,10 +5,10 @@ on:
     branches: [ master ]
     paths:
       - 'Purpur 1.18.1/**'
-  pull_request:
-    branches: [ master ]
-    paths:
-      - 'Purpur 1.18.1/**'
+#  pull_request:
+#    branches: [ master ]
+#    paths:
+#      - 'Purpur 1.18.1/**'
   workflow_dispatch:
 
 jobs:

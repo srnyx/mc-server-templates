@@ -5,10 +5,10 @@ on:
     branches: [ master ]
     paths:
       - 'Paper 1.8.8/**'
-  pull_request:
-    branches: [ master ]
-    paths:
-      - 'Paper 1.8.8/**'
+#  pull_request:
+#    branches: [ master ]
+#    paths:
+#      - 'Paper 1.8.8/**'
   workflow_dispatch:
 
 jobs:
