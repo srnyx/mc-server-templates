@@ -15,11 +15,11 @@ README.md
 */world*/*
 */start.sh
 */libraries
+*/server-launch*.jar
 
 
 
 # Fabric
-Fabric 1.1*/server-launch*.jar
 Fabric 1.1*/fabric-server-launcher.properties
 Fabric 1.1*/.fabric-installer
 Fabric 1.1*/gunpowder.db
@@ -124,7 +124,6 @@ Purpur 1.16.5/plugins/TAB/bossbar.yml
 Purpur 1.16.5/plugins/TAB/translation.yml
 
 ## Purpur 1.18.1
-Purpur 1.18.1/server-launch.jar
 Purpur 1.18.1/versions
 Purpur 1.18.1/plugins/TAB/layout.yml
 Purpur 1.18.1/plugins/TAB/messages.yml

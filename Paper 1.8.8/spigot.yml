@@ -14,18 +14,18 @@ config-version: 8
 settings:
   debug: false
   save-user-cache-on-stop-only: true
-  filter-creative-items: true
-  moved-wrongly-threshold: 0.0625
-  moved-too-quickly-threshold: 100.0
-  bungeecord: false
   late-bind: false
   user-cache-size: 1000
-  int-cache-limit: 1024
-  sample-count: 12
   player-shuffle: 0
+  sample-count: 12
+  filter-creative-items: true
+  moved-too-quickly-threshold: 100.0
+  moved-wrongly-threshold: 0.0625
+  bungeecord: false
   timeout-time: 60
   restart-on-crash: true
   restart-script: start.bat
+  int-cache-limit: 1024
   netty-threads: 4
   attribute:
     maxHealth:
@@ -45,15 +45,15 @@ timings:
   history-length: 3600
 commands:
   tab-complete: 0
+  spam-exclusions:
+  - /skill
   silent-commandblock-console: false
-  log: true
   replace-commands:
   - setblock
   - summon
   - testforblock
   - tellraw
-  spam-exclusions:
-  - /skill
+  log: true
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.
@@ -67,18 +67,6 @@ stats:
 world-settings:
   default:
     verbose: true
-    item-despawn-rate: 6000
-    merge-radius:
-      item: 4.0
-      exp: 6.0
-    enable-zombie-pigmen-portal-spawns: true
-    wither-spawn-sound-radius: 0
-    hanging-tick-frequency: 100
-    arrow-despawn-rate: 600
-    chunks-per-tick: 650
-    clear-tick-list: false
-    view-distance: 10
-    zombie-aggressive-towards-villager: true
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -99,8 +87,8 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    mob-spawn-range: 4
     nerf-spawner-mobs: false
+    mob-spawn-range: 4
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -114,7 +102,6 @@ world-settings:
       animals: 20
       monsters: 24
       misc: 8
-    random-light-updates: false
     entity-tracking-range:
       players: 48
       animals: 48
@@ -125,18 +112,31 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 8
     hopper-amount: 1
+    random-light-updates: false
     save-structure-info: true
+    max-bulk-chunks: 10
     seed-village: 10387312
     seed-feature: 14357617
-    max-bulk-chunks: 10
+    max-tick-time:
+      tile: 1000
+      entity: 1000
+    max-entity-collisions: 8
     hunger:
       walk-exhaustion: 0.2
       sprint-exhaustion: 0.8
       combat-exhaustion: 0.3
       regen-exhaustion: 3.0
     max-tnt-per-tick: 100
-    max-tick-time:
-      tile: 1000
-      entity: 1000
-    max-entity-collisions: 8
+    merge-radius:
+      item: 4.0
+      exp: 6.0
+    item-despawn-rate: 6000
+    enable-zombie-pigmen-portal-spawns: true
+    wither-spawn-sound-radius: 0
+    hanging-tick-frequency: 100
+    arrow-despawn-rate: 600
+    view-distance: 10
     dragon-death-sound-radius: 0
+    zombie-aggressive-towards-villager: true
+    chunks-per-tick: 650
+    clear-tick-list: false
