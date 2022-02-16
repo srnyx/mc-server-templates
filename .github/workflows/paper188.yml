@@ -1,10 +1,10 @@
-name: Paper 1.8.8 Builds
+name: Paper 1.8.x Builds
 
 on:
   push:
     branches: [ master ]
     paths:
-      - 'Paper 1.8.8/**'
+      - 'Paper 1.8.*/**'
 #  pull_request:
 #    branches: [ master ]
 #    paths:
@@ -18,9 +18,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: Make directory
-      run: mkdir -p Paper 1.8.8
+      run: mkdir -p Paper 1.8.*
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
-        name: Paper 1.8.8
-        path: Paper 1.8.8
+        name: Paper 1.8.x
+        path: Paper 1.8.x

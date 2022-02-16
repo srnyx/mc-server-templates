@@ -1,10 +1,10 @@
-name: Fabric 1.16.5 Builds
+name: Fabric 1.16.x Builds
 
 on:
   push:
     branches: [ master ]
     paths:
-      - 'Fabric 1.16.5/**'
+      - 'Fabric 1.16.*/**'
 #  pull_request:
 #    branches: [ master ]
 #    paths:
@@ -18,9 +18,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: Make directory
-      run: mkdir -p Fabric 1.16.5
+      run: mkdir -p Fabric 1.16.*
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
-        name: Fabric 1.16.5
-        path: Fabric 1.16.5
+        name: Fabric 1.16.x
+        path: Fabric 1.16.x
