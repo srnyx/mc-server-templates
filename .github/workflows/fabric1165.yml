@@ -18,7 +18,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: Make directory
-      run: mkdir -p Fabric 1.16.*
+      run: mkdir -p Fabric 1.16.x
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:

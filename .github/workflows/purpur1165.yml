@@ -20,7 +20,7 @@ jobs:
 #      with:
 #        lfs: 'true'
     - name: Make directory
-      run: mkdir -p Purpur 1.16.*
+      run: mkdir -p Purpur 1.16.x
     - name: Upload artifact
       uses: actions/upload-artifact@v2
       with:
