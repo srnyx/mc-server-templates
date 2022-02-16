@@ -46,6 +46,8 @@ P*/help.yml
 P*/permissions.yml
 P*/wepif.yml
 P*/version_history.json
+P*/*.jar
+!P*/PluginChecker*.jar
 
 ## Paper/Purpur PLUGINS
 P*/plugins/bStats
@@ -99,14 +101,6 @@ Purpur*/pufferfish.yml
 Purpur*/tuinity.yml
 Purpur*/plugins/*.jar
 Purpur*/airplane.yml
-!Purpur*/plugins/FarmControl*.jar
-!Purpur*/plugins/InventoryRollbackPlus*.jar
-!Purpur*/plugins/LuckPerms*.jar
-!Purpur*/plugins/PluginChecker*.jar
-!Purpur*/plugins/PlugManX*.jar
-!Purpur*/plugins/ViewDistanceTweaks*.jar
-!Purpur*/plugins/WorldEditSelectionVisualizer*.jar
-!Purpur*/plugins/WorldGuardExtraFlags*.jar
 
 ## Purpur PLUGINS
 ### Multiverse-Core
