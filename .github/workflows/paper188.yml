@@ -23,4 +23,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: Paper 1.8.x
-        path: Paper 1.8.x
+        path: Paper 1.8.*
