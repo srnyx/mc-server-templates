@@ -33,14 +33,15 @@ Fabric 1.1*/config/*
 !Fabric 1.1*/config/servercore.toml
 !Fabric 1.1*/world/carpet.conf
 
-## Fabric 1.18.1
-Fabric 1.18.1/versions
+## Fabric 1.18.x
+Fabric 1.18.*/versions
 
 
 
 # Paper/Purpur
 P*/.console_history
 P*/cache
+P*/versions
 P*/commands.yml
 P*/help.yml
 P*/permissions.yml
@@ -85,15 +86,15 @@ P*/plugins/DiscordSRV/voice.yml
 P*/plugins/DiscordSRV/alerts.yml
 
 
-## Paper 1.8.8
+## Paper 1.8.x
 ### ViaVersion
-Paper 1.8.8/plugins/ViaVersion
+Paper 1.8.*/plugins/ViaVersion
 ## WorldEdit
-Paper 1.8.8/plugins/WorldEdit
+Paper 1.8.*/plugins/WorldEdit
 ### WorldMania
-Paper 1.8.8/plugins/WorldMania/Languages
-Paper 1.8.8/plugins/WorldMania/settings.json
-Paper 1.8.8/plugins/WorldMania/worlds.json
+Paper 1.8.*/plugins/WorldMania/Languages
+Paper 1.8.*/plugins/WorldMania/settings.json
+Paper 1.8.*/plugins/WorldMania/worlds.json
 
 
 # Purpur
@@ -106,19 +107,19 @@ Purpur*/airplane.yml
 ### Multiverse-Core
 Purpur*/plugins/Multiverse-Core/scripts
 Purpur*/plugins/Multiverse-Core/worlds.yml
-### VanillaTweaks
-Purpur*/plugins/VanillaTweaks/*
-!Purpur*/plugins/VanillaTweaks/modules.yml
-!Purpur*/plugins/VanillaTweaks/moremobheads
-!Purpur*/plugins/VanillaTweaks/tag
+### PaperTweaks
+Purpur*/plugins/PaperTweaks/*
+!Purpur*/plugins/PaperTweaks/modules.yml
+!Purpur*/plugins/PaperTweaks/modules/moremobheads
+!Purpur*/plugins/PaperTweaks/modules/tag
 
-## Purpur 1.16.5
+## Purpur 1.16.x
 ### TAB
-Purpur 1.16.5/plugins/TAB/bossbar.yml
-Purpur 1.16.5/plugins/TAB/translation.yml
+Purpur 1.16.*/plugins/TAB/bossbar.yml
+Purpur 1.16.*/plugins/TAB/translation.yml
 
-## Purpur 1.18.1
-Purpur 1.18.1/versions
-Purpur 1.18.1/plugins/TAB/layout.yml
-Purpur 1.18.1/plugins/TAB/messages.yml
-Purpur 1.18.1/plugins/TAB/users.yml
+## Purpur 1.18.x
+Purpur 1.18.*/versions
+Purpur 1.18.*/plugins/TAB/layout.yml
+Purpur 1.18.*/plugins/TAB/messages.yml
+Purpur 1.18.*/plugins/TAB/users.yml
