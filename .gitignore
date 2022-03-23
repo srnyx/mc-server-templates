@@ -107,6 +107,11 @@ Purpur*/airplane.yml
 ### Multiverse-Core
 Purpur*/plugins/Multiverse-Core/scripts
 Purpur*/plugins/Multiverse-Core/worlds.yml
+### VanillaTweaks (ONLY IN OLD TEMPLATES)
+Purpur*/plugins/VanillaTweaks/*
+!Purpur*/plugins/VanillaTweaks/modules.yml
+!Purpur*/plugins/VanillaTweaks/modules/moremobheads
+!Purpur*/plugins/VanillaTweaks/modules/tag
 ### PaperTweaks
 Purpur*/plugins/PaperTweaks/*
 !Purpur*/plugins/PaperTweaks/modules.yml
