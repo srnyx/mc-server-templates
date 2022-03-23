@@ -10,6 +10,7 @@ settings:
   shutdown-message: Server closed
   minimum-api: none
 spawn-limits:
+  axolotls: 5
   monsters: 70
   animals: 10
   water-animals: 5
@@ -19,6 +20,7 @@ spawn-limits:
 chunk-gc:
   period-in-ticks: 400
 ticks-per:
+  axolotl-spawns: 1
   animal-spawns: 400
   monster-spawns: 1
   water-spawns: 1

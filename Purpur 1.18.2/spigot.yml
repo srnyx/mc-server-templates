@@ -53,6 +53,7 @@ messages:
   outdated-server: Outdated server! I'm still on {0}
 world-settings:
   default:
+    seed-nether: 30084232
     seed-stronghold: default
     below-zero-generation-in-existing-chunks: true
     verbose: false

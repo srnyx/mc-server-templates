@@ -8,7 +8,7 @@
 # Discord: https://discord.gg/papermc
 # IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper ) 
 # Website: https://papermc.io/ 
-# Docs: https://paper.readthedocs.org/ 
+# Docs: https://docs.papermc.io/ 
 
 verbose: false
 messages:
@@ -33,8 +33,9 @@ timings:
   history-interval: 300
   history-length: 3600
   server-name: Unknown Server
-config-version: 24
+config-version: 25
 settings:
+  use-dimension-type-for-custom-spawners: false
   time-command-affects-all-worlds: false
   chunk-loading:
     min-load-radius: 2
@@ -60,6 +61,7 @@ settings:
     enable-brigadier-highlighting: true
     enable-brigadier-completions: true
   loggers:
+    use-rgb-for-named-text-colors: true
     deobfuscate-stacktraces: true
   spam-limiter:
     tab-spam-increment: 1
@@ -94,9 +96,9 @@ settings:
       author: 8192
       page: 16384
   unsupported-settings:
-    allow-permanent-block-break-exploits: false
-    allow-piston-duplication: false
-    allow-headless-pistons: false
+    allow-permanent-block-break-exploits: true
+    allow-piston-duplication: true
+    allow-headless-pistons: true
     perform-username-validation: true
     allow-permanent-block-break-exploits-readme: This setting controls if players
       should be able to break bedrock, end portals and other intended to be permanent

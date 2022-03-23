@@ -1,3 +1,4 @@
+version: 1
 experimental:
   confetti-creepers: false
   elevators: false
