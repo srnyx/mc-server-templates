@@ -1,3 +1,0 @@
-"Paper 1.8.8/server-launch.jar" filter=lfs diff=lfs merge=lfs -text
-"Purpur 1.16.5/server-launch.jar" filter=lfs diff=lfs merge=lfs -text
-"Purpur 1.17.1/server-launch.jar" filter=lfs diff=lfs merge=lfs -text
