@@ -39,6 +39,7 @@ cd ..
 del /Q /F /S temp_mc-server-templates
 rd /Q /S temp_mc-server-templates
 
+:: Start server
 if "%start%"=="yes" (
 	cls
 	cd "%software% %version%"
