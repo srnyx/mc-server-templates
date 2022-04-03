@@ -2,10 +2,14 @@
 :: DO NOT CHANGE ANYTHING IN THIS FILE UNLESS YOU KNOW WHAT YOU'RE DOING ::
 :: DO NOT CHANGE ANYTHING IN THIS FILE UNLESS YOU KNOW WHAT YOU'RE DOING ::
 
+:: STARTUP COMMANDS ::
+echo off
+cls
+
 :: VARIABLES ::
 set project=fabric
 set version=1.16.5
-set loader=0.13.1
+set loader=0.13.3
 set installer=0.10.2
 set file=server-launch_%project%_%version%_%loader%_%installer%.jar
 set link=https://meta.fabricmc.net/v2/versions/loader/%version%/%loader%/%installer%/server/jar
@@ -24,23 +28,27 @@ if exist %file% (
     :: If it doesn't, check if an outdated version of %project% exists
     if exist server-launch*.jar (
 	    :: If it does, delete it and go back to the start
-	    echo.
-		echo [92mDeleting outdated %project%[0m
+		echo [92mDeleting outdated [32m%project%[0m
 	    echo.
 		del server-launch*.jar
 	    echo.
-		echo [92mOutdated %project% deleted[0m
+		echo [92mOutdated [32m%project% [92mdeleted[0m
 	    echo.
 		goto start
 	) else (
         :: If it doesn't, download the latest version of %project% and go back to the start
+        echo [92mStarting download of [32m%file%[0m
+		echo.
+		echo.
+		echo.
+		echo.
+		echo.
+		echo.
+		echo [4;91mDO NOT CLOSE THIS WINDOW![0m[91m If you do, delete [31m%file% [91mand rerun [31mstart.bat[0m
+		echo [91mIf you don't have internet, this won't work[0m
+        powershell -ExecutionPolicy Bypass -Command "Invoke-WebRequest %link% -OutFile %file%"
 	    echo.
-        echo [92mStarting download of %file%[0m
-		echo [91mDO NOT CLOSE THIS WINDOW! If you do, delete %file% and rerun start.bat[0m
-	    echo.
-        powershell -Command "Invoke-WebRequest %link% -OutFile %file%"
-	    echo.
-        echo [92m%file% downloaded, continuing...[0m
+        echo [32m%file% [92mdownloaded, continuing...[0m
 	    echo.
         goto start
     )

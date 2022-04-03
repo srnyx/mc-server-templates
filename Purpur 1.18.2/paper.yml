@@ -38,6 +38,7 @@ settings:
   use-dimension-type-for-custom-spawners: false
   time-command-affects-all-worlds: false
   chunk-loading:
+    player-max-chunk-load-rate: -1.0
     min-load-radius: 2
     max-concurrent-sends: 2
     autoconfig-send-distance: true
