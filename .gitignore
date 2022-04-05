@@ -19,18 +19,18 @@ README.md
 
 
 # Fabric
-Fabric 1.1*/fabric-server-launcher.properties
-Fabric 1.1*/.fabric-installer
-Fabric 1.1*/gunpowder.db
-Fabric 1.1*/crash-reports
-Fabric 1.1*/not-enough-crashes
-Fabric 1.1*/.fabric
-Fabric 1.1*/.mixin.out
-Fabric 1.1*/server.jar
-Fabric 1.1*/config/*
-!Fabric 1.1*/config/clean-logs.toml
-!Fabric 1.1*/config/servercore.toml
-!Fabric 1.1*/world/carpet.conf
+Fabric*/fabric-server-launcher.properties
+Fabric*/.fabric-installer
+Fabric*/gunpowder.db
+Fabric*/crash-reports
+Fabric*/not-enough-crashes
+Fabric*/.fabric
+Fabric*/.mixin.out
+Fabric*/server.jar
+Fabric*/config/*
+!Fabric*/config/clean-logs.toml
+!Fabric*/config/servercore.toml
+!Fabric*/world/carpet.conf
 
 ## Fabric 1.18.x
 Fabric 1.18.*/versions
@@ -46,8 +46,8 @@ P*/help.yml
 P*/permissions.yml
 P*/wepif.yml
 P*/version_history.json
-P*/*.jar
-!P*/PluginChecker*.jar
+P*/plugins/*.jar
+!P*/plugins/PluginChecker*.jar
 
 ## Paper/Purpur PLUGINS
 P*/plugins/bStats
@@ -99,7 +99,6 @@ Paper 1.8.*/plugins/WorldMania/worlds.json
 # Purpur
 Purpur*/pufferfish.yml
 Purpur*/tuinity.yml
-Purpur*/plugins/*.jar
 Purpur*/airplane.yml
 
 ## Purpur PLUGINS
