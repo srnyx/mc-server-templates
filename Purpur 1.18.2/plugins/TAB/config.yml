@@ -114,7 +114,7 @@ conditions:
     conditions:
     - '%essentials_afk%=yes'
     true: ' &8[&7AFK&8]%vault_suffix%'
-    false: '%condition:land%%vault_suffix%'
+    false: '%vault_suffix%'
   sb_rank:
     conditions:
     - '%vault_rank%=&aPlayer'
