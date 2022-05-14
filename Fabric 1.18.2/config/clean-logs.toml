@@ -1,0 +1,26 @@
+[clean-logs]
+# Print out all phrases and regex to be filtered out on startup
+printOnStart = false
+
+# Print a single line on start saying that Clean Logs will filter from this point forward
+printInitLineOnStart = true
+
+# If a log message has one of these phrases, it will be filtered out from logging
+phrases = [
+"List of excessive indices:",
+"'Player'.'uuid' -> Player_uuid, sqlite_autoindex_Player_1",
+"Ambiguity between arguments",
+"Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children",
+"does not respect SemVer - comparison support is limited.",
+"uses more dot-separated version components than SemVer allows; support for this is currently not guaranteed.",
+"Method overwrite conflict for getLanguage in worldedit.mixins.json:MixinServerPlayer, previously written by carpet.mixins.ServerPlayerEntity_scarpetEventMixin. Skipping method.",
+"Ksyxis will speedup your world loading. :P",
+"BUT IT MAY CAUSE ISSUES (INCLUDING COMPAT). DON'T ASK OTHER MODS' AUTHORS FOR COMPAT!",
+"Mixin malte0811.ferritecore.mixin.threaddetec.PalettedContainerMixin is disabled automatically as lithium is installed",
+"]) disables it and children",
+"@Redirect conflict. Skipping",
+"@Inject(@At(""INVOKE"")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$bkp000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning."
+]
+
+# If a log message matches one of these regex patterns, it will be filtered out from logging
+regex = []
