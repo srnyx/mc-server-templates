@@ -9,7 +9,7 @@ cls
 :: VARIABLES ::
 set project=fabric
 set version=1.16.5
-set loader=0.13.3
+set loader=0.14.5
 set installer=0.10.2
 set file=server-launch_%project%_%version%_%loader%_%installer%.jar
 set link=https://meta.fabricmc.net/v2/versions/loader/%version%/%loader%/%installer%/server/jar
