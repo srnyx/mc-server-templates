@@ -34,6 +34,9 @@ Fabric/*/config/*
 ## Fabric 1.18.x
 Fabric/1.18.*/versions
 
+## Fabric 1.19.x
+Fabric/1.19.*/versions
+
 
 
 # Paper/Purpur
