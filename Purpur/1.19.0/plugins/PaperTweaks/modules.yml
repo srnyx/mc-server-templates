@@ -1,0 +1,49 @@
+version: 1
+experimental:
+  confetti-creepers: false
+  elevators: false
+  xp-management: false
+hermitcraft:
+  gem-villagers: false
+  tag: true
+  thunder-shrine: false
+  treasure-gems: false
+  wandering-trades: false
+items:
+  armored-elytra: false
+  player-head-drops: true
+  rotation-wrenches: false
+mobs:
+  count-mob-deaths: true
+  larger-phantoms: false
+  mob-griefing: false
+  more-mob-heads: true
+  silence-mobs: false
+  villager-death-messages: false
+other:
+  persistent-heads: true
+survival:
+  afk-display: false
+  cauldron-concrete: false
+  coordinates-hud: false
+  custom-nether-portals: false
+  durability-ping: true
+  fast-leaf-decay: false
+  graves: false
+  multiplayer-sleep: false
+  nether-portal-coords: true
+  pillager-tools: true
+  real-time-clock: false
+  track-raw-stats: true
+  track-stats: true
+  unlock-all-recipes: false
+  villager-workstation-highlights: true
+teleportation:
+  back: false
+  homes: false
+  spawn: false
+  tpa: false
+utilities:
+  kill-empty-boats: false
+  spawning-spheres: false
+  spectator-effects: true

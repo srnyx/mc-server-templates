@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
     paths:
-      - 'Fabric 1.18.*/**'
+      - 'Fabric/1.18.*/**'
 #  pull_request:
 #    branches: [ master ]
 #    paths:

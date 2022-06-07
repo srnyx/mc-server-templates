@@ -1,0 +1,37 @@
+# default config.yml for ConsoleSpamFix
+# config version 1.8.6
+
+#Add here the messages you want to hide from your console and logs.
+#Each line represents a new message.
+#NOTE! You dont need to add the full message!
+#The plugin will hide all messages that contain the text added below.
+#  EXAMPLE:
+#
+#    Messages-To-Hide-Filter:
+#    - 'WARNING: unlocalizedName'
+#
+#  All messages that will appear in the server console that contain these words 'WARNING: unlocalizedName' will be hidden and they will not appear on logs or console.
+#  If you have large errors you dont have to type the full error. But the more words you add the more accurate will be and will not hide other messages that may contain the words added in the filter.
+
+Messages-To-Hide-Filter:
+- 'has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors'
+- 'which is not a depend, softdepend or loadbefore of this plugin.'
+- 'You are running an unsupported server version!'
+- 'Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!'
+- 'does not specify an api-version.'
+- 'We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.'
+- 'Nashorn engine is planned to be removed from a future JDK release'
+- 'Tried to access a block entity before it was created. BlockPosition{x='
+- '- Enable the stopper to remove all future Pillager spawners (Last resort)'
+- 'Unable to find spawn biome'
+- 'Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.'
+- 'No TreeType mapping for TreeGenerator.TreeType.AZALEA'
+- 'hence the tree type AZALEA is not available.'
+
+
+#Chat messages with color and format codes support.
+#Minecraft Color and Format Codes: http://minecraft.gamepedia.com/Formatting_codes    
+ChatMessages:
+    NoPermission: '&4[System] &cYou don''t have permission!'
+    CmdHelp: '&4[System] &cAvailable commands:&6 /csf reload'
+    CmdReload: '&2[System] &aConfig reload complete!'

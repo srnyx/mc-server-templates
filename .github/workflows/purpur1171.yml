@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
     paths:
-      - 'Purpur 1.17.*/**'
+      - 'Purpur/1.17.*/**'
 #  pull_request:
 #    branches: [ master ]
 #    paths:

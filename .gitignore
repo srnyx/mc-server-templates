@@ -1,88 +1,87 @@
-LICENSE
-README.md
 *.old
+*.*-disabled
 
 
 
 # All templates
-*/eula.txt
-*/logs
-*/banned-ips.json
-*/banned-players.json
-*/ops.json
-*/usercache.json
-*/whitelist.json
-*/world*/*
-*/libraries
-*/server-launch*.jar
+**/eula.txt
+**/logs
+**/banned-ips.json
+**/banned-players.json
+**/ops.json
+**/usercache.json
+**/whitelist.json
+**/world*/*
+**/libraries
+**/server-launch*.jar
 
 
 
 # Fabric
-Fabric*/fabric-server-launcher.properties
-Fabric*/.fabric-installer
-Fabric*/gunpowder.db
-Fabric*/crash-reports
-Fabric*/not-enough-crashes
-Fabric*/.fabric
-Fabric*/.mixin.out
-Fabric*/server.jar
-Fabric*/config/*
-!Fabric*/config/clean-logs.toml
-!Fabric*/config/servercore.toml
-!Fabric*/world/carpet.conf
+Fabric/*/fabric-server-launcher.properties
+Fabric/*/.fabric-installer
+Fabric/*/gunpowder.db
+Fabric/*/crash-reports
+Fabric/*/not-enough-crashes
+Fabric/*/.fabric
+Fabric/*/.mixin.out
+Fabric/*/server.jar
+Fabric/*/config/*
+!Fabric/*/config/clean-logs.toml
+!Fabric/*/config/servercore.toml
+!Fabric/*/world/carpet.conf
 
 ## Fabric 1.18.x
-Fabric 1.18.*/versions
+Fabric/1.18.*/versions
 
 
 
 # Paper/Purpur
-P*/.console_history
-P*/cache
-P*/versions
-P*/commands.yml
-P*/help.yml
-P*/permissions.yml
-P*/wepif.yml
-P*/version_history.json
-P*/plugins/*.jar
-!P*/plugins/PluginChecker*.jar
+P**/.console_history
+P**/cache
+P**/versions
+P**/commands.yml
+P**/help.yml
+P**/permissions.yml
+P**/wepif.yml
+P**/version_history.json
+P**/plugins/*.jar
+!P**/plugins/PluginChecker*.jar
 
 ## Paper/Purpur PLUGINS
-P*/plugins/bStats
-P*/plugins/LuckPerms
-P*/plugins/MyCommand
-P*/plugins/PluginManager
-P*/plugins/PlugMan
-P*/plugins/PlugManX
-P*/plugins/PluginMetrics
-P*/plugins/ProtocolLib
-P*/plugins/Updater
-P*/plugins/WorldGuard
-P*/plugins/Vault
-P*/plugins/FastAsyncWorldEdit
-P*/plugins/InventoryRollbackPlus
-P*/plugins/CoreProtect
-P*/plugins/VillagerOptimiser
-P*/plugins/Multiverse-Inventories
-P*/plugins/LimitPillagers
-P*/plugins/EntityTrackerFixer
-P*/plugins/TAB-Additions
-P*/plugins/FarmControl/profiles.yml
+P**/plugins/bStats
+P**/plugins/LuckPerms
+P**/plugins/MyCommand
+P**/plugins/PluginManager
+P**/plugins/PlugMan
+P**/plugins/PlugManX
+P**/plugins/PluginMetrics
+P**/plugins/ProtocolLib
+P**/plugins/Updater
+P**/plugins/WorldGuard
+P**/plugins/Vault
+P**/plugins/FastAsyncWorldEdit
+P**/plugins/InventoryRollbackPlus
+P**/plugins/CoreProtect
+P**/plugins/VillagerOptimiser
+P**/plugins/Multiverse-Inventories
+P**/plugins/LimitPillagers
+P**/plugins/EntityTrackerFixer
+P**/plugins/TAB-Additions
+P**/plugins/FarmControl/profiles.yml
 ### Essentials
-P*/plugins/Essentials/userdata
-P*/plugins/Essentials/items.json
-P*/plugins/Essentials/warps
-P*/plugins/Essentials/custom_items.yml
-P*/plugins/Essentials/items.csv
-P*/plugins/Essentials/kits.yml
-P*/plugins/Essentials/tpr.yml
-P*/plugins/Essentials/upgrades-done.yml
-P*/plugins/Essentials/worth.yml
+P**/plugins/Essentials/userdata
+P**/plugins/Essentials/items.json
+P**/plugins/Essentials/warps
+P**/plugins/Essentials/custom_items.yml
+P**/plugins/Essentials/items.csv
+P**/plugins/Essentials/kits.yml
+P**/plugins/Essentials/tpr.yml
+P**/plugins/Essentials/upgrades-done.yml
+P**/plugins/Essentials/worth.yml
 ### DiscordSRV
-P*/plugins/DiscordSRV/voice.yml
-P*/plugins/DiscordSRV/alerts.yml
+P**/plugins/DiscordSRV/voice.yml
+P**/plugins/DiscordSRV/alerts.yml
 
 
 ## Paper 1.8.x
@@ -97,33 +96,37 @@ Paper 1.8.*/plugins/WorldMania/worlds.json
 
 
 # Purpur
-Purpur*/pufferfish.yml
-Purpur*/tuinity.yml
-Purpur*/airplane.yml
+Purpur/*/pufferfish.yml
+Purpur/*/tuinity.yml
+Purpur/*/airplane.yml
 
 ## Purpur PLUGINS
+### PlaceholderAPI
+Purpur/*/plugins/PlaceholderAPI
 ### Multiverse-Core
-Purpur*/plugins/Multiverse-Core/scripts
-Purpur*/plugins/Multiverse-Core/worlds.yml
-### VanillaTweaks (ONLY IN OLD TEMPLATES)
-Purpur*/plugins/VanillaTweaks/*
-!Purpur*/plugins/VanillaTweaks/modules.yml
-!Purpur*/plugins/VanillaTweaks/modules/moremobheads
-!Purpur*/plugins/VanillaTweaks/modules/tag
-### PaperTweaks
-Purpur*/plugins/PaperTweaks/*
-!Purpur*/plugins/PaperTweaks/modules.yml
-!Purpur*/plugins/PaperTweaks/modules/moremobheads
-!Purpur*/plugins/PaperTweaks/modules/tag
+Purpur/*/plugins/Multiverse-Core/scripts
+Purpur/*/plugins/Multiverse-Core/worlds.yml
+### VanillaTweaks & PaperTweaks
+Purpur/*/plugins/*Tweaks/*
+!Purpur/*/plugins/*Tweaks/modules.yml
+!Purpur/*/plugins/*Tweaks/modules/moremobheads
+!Purpur/*/plugins/*Tweaks/modules/tag
 
 ## Purpur 1.16.x
 ### TAB
-Purpur 1.16.*/plugins/TAB/bossbar.yml
-Purpur 1.16.*/plugins/TAB/translation.yml
+Purpur/1.16.*/plugins/TAB/bossbar.yml
+Purpur/1.16.*/plugins/TAB/translation.yml
 
 ## Purpur 1.18.x
-Purpur 1.18.*/versions
-Purpur 1.18.*/plugins/TAB/layout.yml
-Purpur 1.18.*/plugins/TAB/messages.yml
-Purpur 1.18.*/plugins/TAB/users.yml
-!Purpur 1.18.*/plugins/FarmControl/profiles.yml
+Purpur/1.18.*/versions
+Purpur/1.18.*/plugins/TAB/layout.yml
+Purpur/1.18.*/plugins/TAB/messages.yml
+Purpur/1.18.*/plugins/TAB/users.yml
+!Purpur/1.18.*/plugins/FarmControl/profiles.yml
+
+## Purpur 1.19.x
+Purpur/1.19.*/versions
+Purpur/1.19.*/plugins/TAB/layout.yml
+Purpur/1.19.*/plugins/TAB/messages.yml
+Purpur/1.19.*/plugins/TAB/users.yml
+!Purpur/1.19.*/plugins/FarmControl/profiles.yml

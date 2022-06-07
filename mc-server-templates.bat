@@ -15,7 +15,7 @@ cls
 if "%software%"=="Paper" (
 	set version=1.8.8
 ) else (
-	echo [32m1.16.5 or 1.17.1 or 1.18.2
+	echo [32m1.16.5 or 1.17.1 or 1.18.2 or 1.19
 	set /p version="[92mVersion: [0m"
 )
 cls
@@ -28,11 +28,11 @@ cls
 :: Download template (git REQUIRED)
 git clone https://github.com/srnyx/mc-server-templates --no-checkout temp_mc-server-templates --depth 1
 cd temp_mc-server-templates
-git sparse-checkout set "%software% %version%"
+git sparse-checkout set "%software%/%version%"
 git switch master
 
 :: Move template out of temporary folder
-move "%software% %version%" ..
+move "%software%" ..
 
 :: Delete temporary folder
 cd ..
@@ -42,6 +42,6 @@ rd /Q /S temp_mc-server-templates
 :: Start server
 if "%start%"=="yes" (
 	cls
-	cd "%software% %version%"
+	cd "%software%/%version%"
 	call start.bat
 )
