@@ -34,19 +34,19 @@ required-plugins:
 
   Essentials:
     stop-server: true
-    download-link: "https://essentialsx.net/downloads.html§a§o (USE STABLE RELEASES)"
+    download-link: "https://essentialsx.net/downloads.html §a§o(USE STABLE RELEASES)"
 
   EssentialsSpawn:
     stop-server: true
-    download-link: "https://essentialsx.net/downloads.html§a§o (USE STABLE RELEASES)"
+    download-link: "https://essentialsx.net/downloads.html §a§o(USE STABLE RELEASES)"
 
   FarmControl:
     stop-server: true
     download-link: "https://spigotmc.org/resources/86923"
 
-  FastAsyncWorldEdit:
+  WorldEdit:
     stop-server: true
-    download-link: "https://ci.athion.net/job/FastAsyncWorldEdit/lastSuccessfulBuild/artifact/artifacts/*Bukkit*.jar"
+    download-link: "https://dev.bukkit.org/projects/worldedit/files/latest §a§o(auto-downloads)"
 
 #  SpigotFixTeamChatPlugin:
 #    stop-server: true
@@ -56,9 +56,9 @@ required-plugins:
     stop-server: true
     download-link: "https://spigotmc.org/resources/85811"
 
-  LimitPillagers:
-    stop-server: true
-    download-link: "https://spigotmc.org/resources/69733"
+#  LimitPillagers:
+#    stop-server: true
+#    download-link: "https://spigotmc.org/resources/69733"
 
   LPC:
     stop-server: true
@@ -70,23 +70,23 @@ required-plugins:
 
   Multiverse-Core:
     stop-server: true
-    download-link: "https://dev.bukkit.org/projects/multiverse-core/files/latest§a§o (auto-downloads)"
+    download-link: "https://dev.bukkit.org/projects/multiverse-core/files/latest §a§o(auto-downloads)"
 
   Multiverse-Inventories:
     stop-server: true
-    download-link: "https://dev.bukkit.org/projects/multiverse-inventories/files/latest§a§o (auto-downloads)"
+    download-link: "https://dev.bukkit.org/projects/multiverse-inventories/files/latest §a§o(auto-downloads)"
 
   MyCommand:
     stop-server: true
-    download-link: "https://dev.bukkit.org/projects/mycommand/files/latest§a§o (auto-downloads)"
+    download-link: "https://dev.bukkit.org/projects/mycommand/files/latest §a§o(auto-downloads)"
 
   PlaceholderAPI:
     stop-server: true
     download-link: "https://spigotmc.org/resources/6245"
 
-  PlugManX:
+  PlugWoman:
     stop-server: true
-    download-link: "https://spigotmc.org/resources/88135"
+    download-link: "https://spigotmc.org/resources/82302"
 
   ProtocolLib:
     stop-server: true
@@ -120,9 +120,9 @@ required-plugins:
 #    stop-server: true
 #    download-link: "https://spigotmc.org/resources/68517"
 
-  VooDooPlugin:
-    stop-server: true
-    download-link: "https://spigotmc.org/resources/81794"
+#  VooDooPlugin:
+#    stop-server: true
+#    download-link: "https://spigotmc.org/resources/81794"
 
   WorldEditSelectionVisualizer:
     stop-server: true
@@ -130,7 +130,7 @@ required-plugins:
 
   WorldGuard:
     stop-server: true
-    download-link: "https://dev.bukkit.org/projects/worldguard/files/latest§a§o (auto-downloads)"
+    download-link: "https://dev.bukkit.org/projects/worldguard/files/latest §a§o(auto-downloads)"
 
   WorldGuardExtraFlags:
     stop-server: true
