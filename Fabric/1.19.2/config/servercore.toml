@@ -19,9 +19,6 @@
 	lobotomize_villagers = true
 	# (Default = 20) Decides the interval in between villager ticks when lobotomized.
 	lobotomized_tick_interval = 20
-	# (Default = -1) The threshold MSPT that the server is allowed to run mid-tick chunk saves at.
-	# Setting this value to negative will disable this threshold.
-	chunk_save_threshold = -1
 	# (Default = 5) The amount of minutes in between auto-save intervals when /save-on is active.
 	auto_save_interval = 5
 	# (Default = 0.5) Decides the radius in blocks that items / xp will merge at.
@@ -39,18 +36,26 @@
 	# (Default = 150) The amount of seconds between dynamic viewdistance updates.
 	# This value is separate from the other checks because it makes all clients reload their chunks.
 	view_distance_update_rate = 150
-	# (Default = [Max: 10, Min: 2]) Distance in which random ticks and mobspawning can happen.
+	# (Default = [Max: 10, Min: 2, Increment: 1]) Distance in which random ticks and mobspawning can happen.
 	max_chunk_tick_distance = 14
 	min_chunk_tick_distance = 8
-	# (Default = [Max: 10, Min: 2]) Distance in which the world will tick, similar to no-tick-vd.
+	chunk_tick_distance_increment = 1
+	# (Default = [Max: 10, Min: 2, Increment: 1]) Distance in which the world will tick, similar to no-tick-vd.
 	max_simulation_distance = 10
 	min_simulation_distance = 4
-	# (Default = [Max: 10, Min: 2]) Distance in which the world will render.
+	simulation_distance_increment = 1
+	# (Default = [Max: 10, Min: 2, Increment: 1]) Distance in which the world will render.
 	max_view_distance = 12
 	min_view_distance = 6
-	# (Default = [Max: 1.0, Min: 0.3]) Global multiplier that decides the percentage of the mobcap to be used.
+	view_distance_increment = 1
+	# (Default = [Max: 1.0, Min: 0.3, Increment: 0.1]) Global multiplier that decides the percentage of the mobcap to be used.
 	max_mobcap = 1.0
 	min_mobcap = 0.3
+	mobcap_increment = 0.1
+	# (Default = ["chunk_tick_distance", "mobcap_multiplier", "simulation_distance", "view_distance"])
+	# The order in which the settings will be decreased when the server is overloaded.
+	# Removing a setting from the list will disable it.
+	setting_order = ["chunk_tick_distance", "mobcap_multiplier", "simulation_distance", "view_distance"]
 
 # Stops animals / villagers from breeding if there are too many of the same type nearby.
 [entity_limits]
@@ -150,12 +155,13 @@
 # Allows you to toggle specific optimizations that don't have full vanilla parity.
 # These settings will only take effect after server restarts.
 [optimizations]
-	# (Default = true) Optimizes vanilla's per-player mobspawning by using PaperMC's PlayerMobDistanceMap.
-	# This may sometimes count mobs to a player's mobcap that would normally be just out of its range.
-	use_distance_map = true
 	# (Default = true) Prevents many different lagspikes caused by loading chunks synchronously.
 	# This for example causes maps to only update loaded chunks, which depending on the viewdistance can be a smaller radius than vanilla.
 	reduce_sync_loads = true
+	# (Default = true) Can significantly reduce the time spent on chunk iteration by caching ticking chunks every second.
+	# This is especially useful for servers with a high playercount and / or viewdistance.
+	# Note: The list of ticking chunks is only updated every second, rather than every tick (but that is very unlikely to matter).
+	cache_ticking_chunks = true
 	# (Default = false) Can significantly reduce time spent on mobspawning, but isn't as accurate as vanilla on biome borders.
 	# This may cause mobs from another biome to spawn a few blocks across a biome border (this does not affect structure spawning!).
 	fast_biome_lookups = false
