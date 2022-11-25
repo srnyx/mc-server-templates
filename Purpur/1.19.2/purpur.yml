@@ -10,9 +10,48 @@
 
 verbose: false
 settings:
+  blast-resistance-overrides: {}
+  block-fall-multipliers:
+    minecraft:red_bed:
+      distance: 0.5
+    minecraft:pink_bed:
+      distance: 0.5
+    minecraft:light_blue_bed:
+      distance: 0.5
+    minecraft:purple_bed:
+      distance: 0.5
+    minecraft:magenta_bed:
+      distance: 0.5
+    minecraft:light_gray_bed:
+      distance: 0.5
+    minecraft:brown_bed:
+      distance: 0.5
+    minecraft:lime_bed:
+      distance: 0.5
+    minecraft:yellow_bed:
+      distance: 0.5
+    minecraft:black_bed:
+      distance: 0.5
+    minecraft:orange_bed:
+      distance: 0.5
+    minecraft:green_bed:
+      distance: 0.5
+    minecraft:blue_bed:
+      distance: 0.5
+    minecraft:cyan_bed:
+      distance: 0.5
+    minecraft:gray_bed:
+      distance: 0.5
+    minecraft:white_bed:
+      distance: 0.5
+    minecraft:hay_block:
+      damage: 0.2
+  fix-projectile-looting-transfer: false
   food-properties: {}
   disable-give-dropping: false
   messages:
+    ram-command-output: '<green>Ram Usage: <used>/<xmx> (<percent>)'
+    rambar-command-output: <green>Rambar toggled <onoff> for <target>
     tpsbar-command-output: <green>Tpsbar toggled <onoff> for <target>
     cannot-ride-mob: <red>You cannot mount that mob
     afk-broadcast-away: <yellow><italic>%s is now AFK
@@ -31,6 +70,8 @@ settings:
       stonecutter: <player> has sawed themself in half
       run-with-scissors: <player> slipped and fell on their shears
   logger:
+    suppress-sent-expired-chat: false
+    suppress-library-loader: false
     suppress-setblock-in-far-chunk-errors: false
     suppress-init-legacy-material-errors: false
     suppress-ignored-advancement-warnings: false
@@ -38,6 +79,14 @@ settings:
   tps-catchup: true
   server-mod-name: Purpur
   blocks:
+    cave_vines:
+      max-growth-age: 25
+    kelp:
+      max-growth-age: 25
+    twisting_vines:
+      max-growth-age: 25
+    weeping_vines:
+      max-growth-age: 25
     disable-mushroom-updates: false
     disable-note-block-updates: false
     disable-chorus-plant-updates: false
@@ -62,11 +111,17 @@ settings:
       remove-name-and-lore: false
       ignore-curses: true
   enchantment:
+    allow-transparent-blocks-in-enchantment-box: false
+    clamp-levels: true
     allow-unsafe-enchant-command: false
     allow-infinity-and-mending-together: false
     allow-infinity-on-crossbow: false
     allow-looting-on-shears: false
-    allow-unsafe-enchants: false
+    anvil:
+      allow-unsafe-enchants: false
+      allow-inapplicable-enchants: true
+      allow-incompatible-enchants: true
+      allow-higher-enchants-levels: true
   username-valid-characters: ^[a-zA-Z0-9_.]*$
   use-alternate-keepalive: true
   allow-water-placement-in-the-end: true
@@ -75,6 +130,18 @@ settings:
       buried_treasure: -1
       mineshaft: -1
   command:
+    rambar:
+      title: <gray>Ram<yellow>:</yellow> <used>/<xmx> (<percent>)
+      overlay: NOTCHED_20
+      progress-color:
+        good: GREEN
+        medium: YELLOW
+        low: RED
+      text-color:
+        good: <gradient:#55ff55:#00aa00><text></gradient>
+        medium: <gradient:#ffff55:#ffaa00><text></gradient>
+        low: <gradient:#ff5555:#aa0000><text></gradient>
+      tick-interval: 20
     fill:
       max-area: 32768
     tpsbar:
@@ -117,15 +184,38 @@ settings:
     death:
       only-broadcast-to-affected-player: false
   network:
+    kick-for-out-of-order-chat: true
     max-joins-per-second: false
     upnp-port-forwarding: false
   entity:
     enderman:
       short-height: false
-config-version: 27
+config-version: 30
 world-settings:
   default:
+    settings:
+      entity:
+        shared-random: true
     mobs:
+      frog:
+        ridable: false
+        ridable-in-water: false
+        controllable: true
+        ridable-jump-height: 0.6499999761581421
+        breeding-delay-ticks: 6000
+      allay:
+        ridable: false
+        ridable-in-water: false
+        controllable: true
+        respect-nbt: []
+      tadpole:
+        ridable: false
+        ridable-in-water: false
+        controllable: true
+      warden:
+        ridable: false
+        ridable-in-water: false
+        controllable: true
       wandering_trader:
         controllable: true
         ridable: false
@@ -399,6 +489,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       creeper:
+        encircle-target: false
         controllable: true
         ridable: false
         ridable-in-water: false
@@ -517,6 +608,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       horse:
+        stand-when-hurt: true
         ridable-in-water: false
         attributes:
           max_health:
@@ -556,6 +648,7 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       glow_squid:
+        rainglow-mode: rainbow
         controllable: true
         ridable: false
         attributes:
@@ -821,6 +914,8 @@ world-settings:
         takes-damage-from-water: false
         always-drop-exp: false
       skeleton:
+        feed-wither-roses: 0
+        bow-accuracy: 14 - difficulty * 4
         controllable: true
         ridable: false
         ridable-in-water: false
@@ -979,6 +1074,12 @@ world-settings:
         always-drop-exp: false
         head-visibility-percent: 0.5
     blocks:
+      coral:
+        die-outside-water: true
+      sculk_shrieker:
+        can-summon-default: false
+      enchantment-table:
+        lapis-persists: false
       respawn_anchor:
         explode: true
         explosion-power: 5.0
@@ -1004,6 +1105,7 @@ world-settings:
       cactus:
         breaks-from-solid-neighbors: true
       anvil:
+        use-mini-message: false
         iron-ingots-used-for-repair: 0
         obsidian-used-for-damage: 0
         allow-colors: false
@@ -1089,6 +1191,7 @@ world-settings:
       powder_snow:
         bypass-mob-griefing: false
       turtle_egg:
+        feather-fall-distance-affects-trampling: false
         break-from-exp-orbs: true
         break-from-items: true
         break-from-minecarts: true
@@ -1175,6 +1278,12 @@ world-settings:
           minecraft:oak_log:
             drops: {}
             into: minecraft:stripped_oak_log
+          minecraft:mangrove_log:
+            into: minecraft:stripped_mangrove_log
+            drops: {}
+          minecraft:mangrove_wood:
+            into: minecraft:stripped_mangrove_wood
+            drops: {}
         waxables:
           minecraft:waxed_oxidized_cut_copper_stairs:
             drops: {}
@@ -1293,6 +1402,9 @@ world-settings:
     hunger:
       starvation-damage: 1.0
     gameplay-mechanics:
+      arrow:
+        movement-resets-despawn-counter: true
+      milk-clears-beneficial-effects: true
       mob-last-hurt-by-player-time: 100
       entity-lifespan: 0
       entity-left-handed-chance: 0.05000000074505806
@@ -1335,6 +1447,8 @@ world-settings:
         spectral-arrows: false
         tipped-arrows: false
       player:
+        teleport-on-nether-ceiling-damage: false
+        burp-delay: 10
         exp-pickup-delay-ticks: 2
         allow-void-trading: false
         netherite-fire-resistance:
@@ -1369,20 +1483,6 @@ world-settings:
         curse-of-binding:
           remove-with-weakness: false
         shift-right-click-repairs-mending-points: 0
-      projectile-despawn-rates:
-        dragon_fireball: -1
-        egg: -1
-        ender_pearl: -1
-        experience_bottle: -1
-        firework_rocket: -1
-        fishing_bobber: -1
-        fireball: -1
-        llama_spit: -1
-        potion: -1
-        shulker_bullet: -1
-        small_fireball: -1
-        snowball: -1
-        wither_skull: -1
       daylight-cycle-ticks:
         daytime: 12000
         nighttime: 12000
@@ -1450,6 +1550,7 @@ world-settings:
             candles: false
             campfires: false
       mob-spawning:
+        ignore-creative-players: false
         village-cats: default
         raid-patrols: default
         phantoms: default

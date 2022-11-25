@@ -21,6 +21,7 @@ Messages-To-Hide-Filter:
 - "- Enable the stopper to remove all future Pillager spawners (Last resort)"
 - "Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!"
 - "does not specify an api-version."
+- "Neither the DataFixer nor defaulting worked to recognize this item."
 
 
 #Chat messages with color and format codes support.

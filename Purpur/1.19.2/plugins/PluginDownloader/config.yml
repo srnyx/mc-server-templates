@@ -1,0 +1,53 @@
+# DO NOT CHANGE THIS FILE! IT WILL BREAK YOUR SERVER!
+# DO NOT CHANGE THIS FILE! IT WILL BREAK YOUR SERVER!
+# DO NOT CHANGE THIS FILE! IT WILL BREAK YOUR SERVER!
+
+messages:
+  download: |
+    
+    
+    &a&lThe template is going to attempt to install these plugins:
+    &2%plugins%
+    &a&oIf something goes wrong, you will be notified
+    
+  external: |
+    
+    
+    &6&l%plugin%&e&l is not installed!
+    &eYou'll have to manually download it at &6&n%link%&r
+    
+  failed: |
+    
+    
+    &4&l%plugin%&c&l failed to install!
+    &cYou'll have to manually download it at &4&n%link%&r
+    
+plugins:
+  ConsoleSpamFix: 18410
+  CoreProtect: 8631
+  DiscordSRV: 18494
+  Essentials: "https://essentialsx.net/downloads.html"
+  EssentialsSpawn: "https://essentialsx.net/downloads.html"
+  FarmControl: 86923
+  WorldEdit: "https://dev.bukkit.org/projects/worldedit/files/latest"
+  InventoryRollbackPlus: 85811
+  LuckPerms: 28140
+  Multiverse-Core: 390
+  Multiverse-Inventories: "https://dev.bukkit.org/projects/multiverse-inventories/files/latest"
+  MyCommand: 22272
+  PlaceholderAPI: 6245
+  PlugManX: 88135
+  ProtocolLib: "https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/artifact/target/ProtocolLib.jar"
+  spark: 57242
+  TAB: "https://github.com/NEZNAMY/TAB/releases/latest"
+  VanillaTweaks: "https://github.com/MC-Machinations/VanillaTweaks/releases"
+  Vault: 34315
+  VentureChat: 771
+  ViewDistanceTweaks: 75164
+  WorldEditSelectionVisualizer: 17311
+  WorldGuard: "https://dev.bukkit.org/projects/worldguard/files/latest"
+  WorldGuardExtraFlags: 4823
+
+# DO NOT CHANGE THIS FILE! IT WILL BREAK YOUR SERVER!
+# DO NOT CHANGE THIS FILE! IT WILL BREAK YOUR SERVER!
+# DO NOT CHANGE THIS FILE! IT WILL BREAK YOUR SERVER!
