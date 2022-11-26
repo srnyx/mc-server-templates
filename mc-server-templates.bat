@@ -15,7 +15,7 @@ cls
 if "%software%"=="Paper" (
 	set version=1.8.8
 ) else (
-	echo [32m1.16.5 or 1.17.1 or 1.18.2 or 1.19
+	echo [32m1.16.5 or 1.17.1 or 1.18.2 or 1.19.2
 	set /p version="[92mVersion: [0m"
 )
 cls
