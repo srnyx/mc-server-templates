@@ -36,6 +36,8 @@ Fabric/1.18.*/versions
 
 ## Fabric 1.19.x
 Fabric/1.19.*/versions
+Fabric/1.19.*/sdlink-whitelist.db
+Fabric/1.19.*/mods/luckperms/*
 
 
 
