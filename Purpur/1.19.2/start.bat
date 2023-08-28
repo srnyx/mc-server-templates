@@ -27,7 +27,6 @@ if exist %file% (
     if exist server-launch*.jar (
 	    :: If it does, delete it and go back to the start
 		echo [92mDeleting outdated [32m%project%[0m
-	    echo.
 		del server-launch*.jar
 	    echo.
 		echo [92mOutdated [32m%project% [92mdeleted[0m
